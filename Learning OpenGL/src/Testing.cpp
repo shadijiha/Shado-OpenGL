@@ -23,13 +23,13 @@ public:
 	
 	void onDraw() override {
 
-		Renderer2D::BeginScene(camera.getCamera());
+		Renderer2D::beginScene(camera.getCamera());
 		
 		for (float y = -1.5f; y < 1.5f; y += 0.3f)
 			for (float x = -1.5f; x < 1.5f; x += 0.3f)
-				Renderer2D::DrawQuad({ x, y , -2 }, { 0.25, 0.25}, riven2);
+				Renderer2D::drawRect({ x, y , 0 }, { 0.25, 0.25, rand() % 5 }, {0, 0, 0, }, *riven2);
 		
-		Renderer2D::DrawQuad({ -0.5, -0.5 , -5 }, { 6, 4}, riven2);
+		Renderer2D::drawRect({ -0.5, -0.5 , -2 }, { 6, 4, 0 }, {0, 0, 0}, *riven2);
 		
 		
 		// for (float y = -5.0f; y < 5.0f; y += 0.5f)
@@ -41,12 +41,6 @@ public:
 		// 	}
 		// }		
 		
-		Renderer2D::EndScene();
-
-		static float angle = -90.0;
-		angle += 0.1;
-
-		camera.getCamera().setRotation({ 0, angle, 0 });
 	}
 	
 	void onDestroy() override{}

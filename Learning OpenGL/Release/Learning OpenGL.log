@@ -1,10 +1,9 @@
 ﻿  Testing.cpp
-D:\Wamp64\www\GitHub\Side-Projects\Learning OpenGL\Learning OpenGL\src\Testing.cpp(47,1): warning C4305: '+=': truncation from 'double' to 'float'
 LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
   Generating code
-  1 of 1746 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+  1 of 1681 functions (<0.1%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     8 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\Wamp64\www\GitHub\Side-Projects\Learning OpenGL\Release\vc120.pdb'; linking object as if no debug info
-  Learning OpenGL.vcxproj -> D:\Wamp64\www\GitHub\Side-Projects\Learning OpenGL\Release\Learning OpenGL.exe
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\Wamp64\www\GitHub\Shado-OpenGL\Release\vc120.pdb'; linking object as if no debug info
+  Learning OpenGL.vcxproj -> D:\Wamp64\www\GitHub\Shado-OpenGL\Release\Learning OpenGL.exe
