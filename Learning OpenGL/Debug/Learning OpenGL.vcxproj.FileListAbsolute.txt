@@ -1,0 +1,2 @@
+D:\Wamp64\www\GitHub\Side-Projects\Learning OpenGL\Debug\Learning OpenGL.pdb
+D:\Wamp64\www\GitHub\Side-Projects\Learning OpenGL\Learning OpenGL\Debug\Learning OpenGL.pdb
