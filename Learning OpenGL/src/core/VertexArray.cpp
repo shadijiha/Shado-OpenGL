@@ -36,7 +36,7 @@ namespace Shado {
 
 	void VertexArray::bind() const {
 		glBindVertexArray(m_RendererID);
-		//m_IndexBuffers->bind();
+		m_IndexBuffer->bind();		// TODO: Maybe should comment this line
 	}
 
 	void VertexArray::unBind() const {

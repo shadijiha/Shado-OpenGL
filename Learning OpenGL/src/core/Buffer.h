@@ -138,7 +138,7 @@ namespace Shado {
 			return m_Count;
 		}
 
-		static std::shared_ptr<IndexBuffer> create(uint32_t* indices, uint32_t size);
+		static std::shared_ptr<IndexBuffer> create(uint32_t* indices, uint32_t count);
 
 	private:
 		uint32_t m_RendererID;

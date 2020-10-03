@@ -78,7 +78,7 @@ namespace Shado {
         singleton->textureShader->setMat4("u_ViewProjection", camera.getViewProjectionMatrix());
     }
 
-    void Renderer2D::drawRect(const glm::vec3& position, const glm::vec3& dimensions, const glm::vec3& rotation, const Color& c) {
+    void Renderer2D::drawRect(const glm::vec3& position, const glm::vec2& dimensions, const glm::vec3& rotation, const Color& c) {
 
         // Check if the Renderer2D has been initialized or not
         singleton->checkForInit();
@@ -86,7 +86,7 @@ namespace Shado {
         auto rotZ = glm::rotate(glm::mat4(1.0f), glm::radians(rotation.z), glm::vec3(0.0f, 0.0f, 1.0f));
         auto rotY = glm::rotate(glm::mat4(1.0f), glm::radians(rotation.y), glm::vec3(0.0f, 1.0f, 1.0f));
         auto rotX = glm::rotate(glm::mat4(1.0f), glm::radians(rotation.x), glm::vec3(1.0f, 0.0f, 0.0f));
-        auto transform = glm::translate(glm::mat4(1.0f), position) * rotX * rotY * rotZ * glm::scale(glm::mat4(1.0f), dimensions);
+        auto transform = glm::translate(glm::mat4(1.0f), position) * rotX * rotY * rotZ * glm::scale(glm::mat4(1.0f), { dimensions, 0.0 });
 
         singleton->flatColorShader->bind();     // Shader should always be bound before setting the uniforms
         //singleton->flatColorShader->setMat4("u_ViewProjection", singleton->m_Camera.getViewProjectionMatrix());
@@ -104,7 +104,7 @@ namespace Shado {
         array->unBind();
     }
 
-    void Renderer2D::drawRect(const glm::vec3& position, const glm::vec3& dimensions, const glm::vec3& rotation,
+    void Renderer2D::drawRect(const glm::vec3& position, const glm::vec2& dimensions, const glm::vec3& rotation,
         Shader& shader) {
 
         // Check if the Renderer2D has been initialized or not
@@ -113,7 +113,7 @@ namespace Shado {
         auto rotZ = glm::rotate(glm::mat4(1.0f), glm::radians(rotation.z), glm::vec3(0.0f, 0.0f, 1.0f));
         auto rotY = glm::rotate(glm::mat4(1.0f), glm::radians(rotation.y), glm::vec3(0.0f, 1.0f, 1.0f));
         auto rotX = glm::rotate(glm::mat4(1.0f), glm::radians(rotation.x), glm::vec3(1.0f, 0.0f, 0.0f));
-        auto transform = glm::translate(glm::mat4(1.0f), position) * rotX * rotY * rotZ * glm::scale(glm::mat4(1.0f), dimensions);
+        auto transform = glm::translate(glm::mat4(1.0f), position) * rotX * rotY * rotZ * glm::scale(glm::mat4(1.0f), {dimensions, 0.0f});
 
         shader.bind();     // Shader should always be bound before setting the uniforms
         //shader.setMat4("u_ViewProjection", singleton->m_Camera.getViewProjectionMatrix());
@@ -130,7 +130,7 @@ namespace Shado {
         array->unBind();
     }
 
-    void Renderer2D::drawRect(const glm::vec3& position, const glm::vec3& dimensions, const glm::vec3& rotation, const Texture2D& texture) {
+    void Renderer2D::drawRect(const glm::vec3& position, const glm::vec2& dimensions, const glm::vec3& rotation, const Texture2D& texture) {
 
         // Check if the Renderer2D has been initialized or not
         singleton->checkForInit();
@@ -138,7 +138,7 @@ namespace Shado {
         auto rotZ = glm::rotate(glm::mat4(1.0f), glm::radians(rotation.z), glm::vec3(0.0f, 0.0f, 1.0f));
         auto rotY = glm::rotate(glm::mat4(1.0f), glm::radians(rotation.y), glm::vec3(0.0f, 1.0f, 1.0f));
         auto rotX = glm::rotate(glm::mat4(1.0f), glm::radians(rotation.x), glm::vec3(1.0f, 0.0f, 0.0f));
-        auto translate = glm::translate(glm::mat4(1.0f), position) * rotX * rotY * rotZ * glm::scale(glm::mat4(1.0f), dimensions);
+        auto translate = glm::translate(glm::mat4(1.0f), position) * rotX * rotY * rotZ * glm::scale(glm::mat4(1.0f), {dimensions, 0.0f});
 
         singleton->textureShader->bind();
         singleton->textureShader->setInt("u_Texture", 0);
@@ -270,7 +270,28 @@ namespace Shado {
         }
     }
 
-    void Renderer2D::draw(const VertexArray& va, const Shader& shader) {
+	void Renderer2D::drawModel(const Object3D& object, const glm::vec3& position) {
+
+        // Check if the Renderer2D has been initialized or not
+        singleton->checkForInit();
+
+        auto transform = glm::translate(glm::mat4(1.0f), position); //* glm::scale(glm::mat4(1.0f), { dimensions, 0.0f });;
+
+        singleton->flatColorShader->bind();     // Shader should always be bound before setting the uniforms
+        //singleton->flatColorShader->setMat4("u_ViewProjection", singleton->m_Camera.getViewProjectionMatrix());
+        singleton->flatColorShader->setMat4("u_Transform", transform);
+        singleton->flatColorShader->setFloat4("u_Color", {1, 1, 1, 1});
+
+        object.getVertexArray()->bind();
+
+        {
+            glCall(glDrawElements(GL_TRIANGLES, object.getVertexArray()->getIndexBuffers()->getCount(), GL_UNSIGNED_INT, nullptr));
+            singleton->collectStats();
+        }
+    	
+	}
+
+	void Renderer2D::draw(const VertexArray& va, const Shader& shader) {
 
         va.bind();
         shader.bind();
@@ -353,5 +374,4 @@ namespace Shado {
         m_Cache->quadFlatColorVAO = quadFlatColorVAO;
         m_Cache->quadTextureVAO = quadTextureVAO;
     }
-
 }

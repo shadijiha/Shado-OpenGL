@@ -10,6 +10,7 @@
 #include "Shader.h"
 #include "VertexArray.h"
 #include "Texture2D.h"
+#include "util/Object3D.h"
 
 namespace Shado {
 
@@ -34,16 +35,16 @@ namespace Shado {
 		static void setClearColor(const Color& color);
 		static void beginScene(const Camera& camera);
 
-		static void drawRect(const glm::vec3& position, const glm::vec3& dimensions, const glm::vec3& rotation = { 0, 0, 0 }, const Color& c = { 1, 1, 1 });
-		static void drawRect(const glm::vec3& position, const glm::vec3& dimensions, const glm::vec3& rotation, Shader& shader);
-		static void drawRect(const glm::vec3& position, const glm::vec3& dimensions, const glm::vec3& rotation, const Texture2D& texture);
+		static void drawRect(const glm::vec3& position, const glm::vec2& dimensions, const glm::vec3& rotation = { 0, 0, 0 }, const Color& c = { 1, 1, 1 });
+		static void drawRect(const glm::vec3& position, const glm::vec2& dimensions, const glm::vec3& rotation, Shader& shader);
+		static void drawRect(const glm::vec3& position, const glm::vec2& dimensions, const glm::vec3& rotation, const Texture2D& texture);
 
 		static void drawTriangle(const glm::vec3& p1, const glm::vec3& p2, const glm::vec3& p3, const glm::vec3& rotation = { 0, 0, 0 }, const Color& c = { 1, 1, 1 });
-
 		static void drawEllipse(const glm::vec3& position, const glm::vec2& radiuses, const glm::vec3& rotation, const Color& c);
-
 		static void drawLine(const glm::vec3& p0, const glm::vec3& p1, Color color = Color(1.0f, 1.0f, 1.0f));
 
+		static void drawModel(const Object3D& object, const glm::vec3& position);
+		
 		static void draw(const VertexArray& va, const Shader& shader);
 		static void draw(const std::shared_ptr<VertexArray>& va, const std::shared_ptr<Shader>& shader);
 
