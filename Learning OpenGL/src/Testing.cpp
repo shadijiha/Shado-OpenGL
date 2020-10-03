@@ -1,4 +1,5 @@
 ﻿#include "Shado.h"
+#include <stdio.h>
 
 using namespace Shado;
 
@@ -33,14 +34,14 @@ public:
 
 		Renderer2D::drawModel(obj, { 0, 0, 0 });
 		
-		// for (float y = -5.0f; y < 5.0f; y += 0.5f)
-		// {
-		// 	for (float x = -5.0f; x < 5.0f; x += 0.5f)
-		// 	{
-		// 		Color color = { (x + 5.0f) / 10.0f, 0.4f, (y + 5.0f) / 10.0f, 0.7f };
-		// 		Renderer2D::drawRect({ x, y , -5 }, { 0.45f, 0.45f, 0 }, {0, 0, 0}, color);
-		// 	}
-		// }		
+		for (float y = -5.0f; y < 5.0f; y += 0.5f)
+		{
+			for (float x = -5.0f; x < 5.0f; x += 0.5f)
+			{
+				Color color = { (x + 5.0f) / 10.0f, 0.4f, (y + 5.0f) / 10.0f, 0.7f };
+				Renderer2D::drawRect({ x, y , -5 }, { 0.45f, 0.45f}, {0, 0, 0}, color);
+			}
+		}		
 		
 	}
 	
@@ -62,7 +63,6 @@ private:
 
 int main(int argc, const char** argv)
 {
-
 	auto& application = Application::get();
 	application.submit(new TestScene());
 	application.run();

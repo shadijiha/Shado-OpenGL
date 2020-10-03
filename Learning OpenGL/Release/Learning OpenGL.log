@@ -1,9 +1,9 @@
 ﻿  Testing.cpp
 LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
   Generating code
-  8 of 1849 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+  89 of 1853 functions ( 4.8%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    9 functions had inline decision re-evaluated but remain unchanged
+    22 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
 glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\Wamp64\www\GitHub\Shado-OpenGL\Release\vc120.pdb'; linking object as if no debug info
   Learning OpenGL.vcxproj -> D:\Wamp64\www\GitHub\Shado-OpenGL\Release\Learning OpenGL.exe
