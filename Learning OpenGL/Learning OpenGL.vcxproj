@@ -159,6 +159,7 @@
     <ClCompile Include="src\core\Events\input.cpp" />
     <ClCompile Include="src\core\Shader.cpp" />
     <ClCompile Include="src\core\Texture2D.cpp" />
+    <ClCompile Include="src\core\util\Object3D.cpp" />
     <ClCompile Include="src\core\util\Util.cpp" />
     <ClCompile Include="src\core\Debug.cpp" />
     <ClCompile Include="src\core\experimantal\Renderer2D.cpp" />
@@ -182,6 +183,7 @@
     <ClInclude Include="src\core\Events\MouseEvent.h" />
     <ClInclude Include="src\core\Shader.h" />
     <ClInclude Include="src\core\Texture2D.h" />
+    <ClInclude Include="src\core\util\Object3D.h" />
     <ClInclude Include="src\core\util\Util.h" />
     <ClInclude Include="src\core\Debug.h" />
     <ClInclude Include="src\core\experimantal\Renderer2D.h" />
