@@ -3,15 +3,15 @@
 #ifndef RENDERER_2D_H
 #define RENDERER_2D_H
 
-#include "../util/Util.h"
+#include "util/Util.h"
 #include <memory>
 #include <unordered_map>
-#include "../cameras/OrthoCamera.h"
-#include "../Shader.h"
-#include "../VertexArray.h"
-#include "../Texture2D.h"
+#include "cameras/OrthoCamera.h"
+#include "Shader.h"
+#include "VertexArray.h"
+#include "Texture2D.h"
 
-namespace Shado::Experimantal {
+namespace Shado {
 
 	inline std::string FLAT_COLOR_SHADER_PATH = FILE_PATH + "\\src\\core\\ressources\\FlatColorShader.glsl";
 	inline std::string TEXTURE2D_SHADER_PATH = FILE_PATH + "\\src\\core\\ressources\\TextureShader.glsl";
@@ -19,15 +19,15 @@ namespace Shado::Experimantal {
 	class Renderer2D
 	{
 	public:
-		static void init();
-		static void shutdown();
+		static void Init();
+		static void Shutdown();
 
 		static void BeginScene(const Camera& camera, const glm::mat4& transform);
 		static void BeginScene(const Camera& camera); // TODO: Remove
 		static void EndScene();
 		static void Flush();
-		static void setClearColor(const glm::vec4& color);
-		static void clear();
+		static void SetClearColor(const glm::vec4& color);
+		static void Clear();
 
 		// Primitives
 		static void DrawQuad(const glm::vec2& position, const glm::vec2& size, const glm::vec4& color);

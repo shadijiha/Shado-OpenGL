@@ -163,7 +163,7 @@ namespace Shado {
 
 		// Init Renderer if it hasn't been done
 		if (!Renderer2D::hasInitialized()) {
-			Renderer2D::init();
+			Renderer2D::Init();
 		}
 
 		if (allScenes.size() == 0)
@@ -177,7 +177,7 @@ namespace Shado {
 			m_LastFrameTime = time;
 			
 			/* Render here */
-			Renderer2D::clear();
+			Renderer2D::Clear();
 
 			// Draw scenes here
 			for (Scene* scene : allScenes) {
@@ -202,7 +202,7 @@ namespace Shado {
 
 		// Init Renderer if it hasn't been done
 		if (!Renderer2D::hasInitialized()) {
-			Renderer2D::init();
+			Renderer2D::Init();
 		}
 	
 		scene->onInit();
@@ -235,8 +235,7 @@ namespace Shado {
 			delete scene;
 			scene = nullptr;
 		}
-
-		Renderer2D::shutdown();
+	
 		delete singleton;
 	}
 

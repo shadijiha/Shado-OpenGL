@@ -161,7 +161,7 @@
     <ClCompile Include="src\core\Texture2D.cpp" />
     <ClCompile Include="src\core\util\Util.cpp" />
     <ClCompile Include="src\core\Debug.cpp" />
-    <ClCompile Include="src\core\experimantal\Renderer2D.cpp" />
+    <ClCompile Include="src\core\Renderer2D.cpp" />
     <ClCompile Include="src\core\VertexArray.cpp" />
     <ClCompile Include="src\Testing.cpp" />
     <ClCompile Include="src\vendor\stb_image.cpp" />
@@ -184,7 +184,7 @@
     <ClInclude Include="src\core\Texture2D.h" />
     <ClInclude Include="src\core\util\Util.h" />
     <ClInclude Include="src\core\Debug.h" />
-    <ClInclude Include="src\core\experimantal\Renderer2D.h" />
+    <ClInclude Include="src\core\Renderer2D.h" />
     <ClInclude Include="src\core\VertexArray.h" />
     <ClInclude Include="src\Shado.h" />
     <ClInclude Include="src\vendor\stb_image.h" />
