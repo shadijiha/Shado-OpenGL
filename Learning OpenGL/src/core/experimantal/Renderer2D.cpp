@@ -1,16 +1,16 @@
 ﻿
 #include "Renderer2D.h"
 #include <GL/glew.h>
-#include "Buffer.h"
-#include "Debug.h"
+#include "../Buffer.h"
+#include "../Debug.h"
 #include <glm/glm.hpp>
 #include <glm/gtx/transform.hpp>
-#include "cameras/OrbitCamera.h"
-#include "VertexArray.h"
+#include "../cameras/OrbitCamera.h"
+#include "../VertexArray.h"
 #include <array>
 
 
-namespace Shado {
+namespace Shado::Experimantal {
 
 	struct QuadVertex
 	{
@@ -49,7 +49,7 @@ namespace Shado {
 
 	bool Renderer2D::s_Init = false;
 	
-	void Renderer2D::Init()
+	void Renderer2D::init()
 	{
 		glEnable(GL_BLEND);
 		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
@@ -112,7 +112,7 @@ namespace Shado {
 		s_Init = true;
 	}
 
-	void Renderer2D::Shutdown()
+	void Renderer2D::shutdown()
 	{
 		delete[] s_Data.QuadVertexBufferBase;
 	}
@@ -162,11 +162,11 @@ namespace Shado {
 		s_Data.Stats.DrawCalls++;
 	}
 
-	void Renderer2D::SetClearColor(const glm::vec4& color) {
+	void Renderer2D::setClearColor(const glm::vec4& color) {
 		glClearColor(color.r, color.g, color.b, color.a);
 	}
 
-	void Renderer2D::Clear() {
+	void Renderer2D::clear() {
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	}
 

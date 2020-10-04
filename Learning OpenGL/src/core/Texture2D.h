@@ -19,7 +19,7 @@ namespace Shado {
 
 		bool operator==(const Texture2D& other) const
 		{
-			return m_RendererID == ((Texture2D&)other).m_RendererID;
+			return m_RendererID == other.m_RendererID;
 		}
 
 	private:
