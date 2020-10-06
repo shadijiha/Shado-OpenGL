@@ -91,6 +91,7 @@ namespace Shado {
 
 		s_Data.WhiteTexture = std::make_shared<Texture2D>(1, 1);
 		uint32_t whiteTextureData = 0xffffffff;
+		s_Data.WhiteTexture->bind(0);
 		s_Data.WhiteTexture->setData(&whiteTextureData, sizeof(uint32_t));
 
 		int32_t samplers[s_Data.MaxTextureSlots];
@@ -167,7 +168,7 @@ namespace Shado {
 	}
 
 	void Renderer2D::Clear() {
-		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
 	}
 
 	void Renderer2D::FlushAndReset()
@@ -183,7 +184,7 @@ namespace Shado {
 	void Renderer2D::CmdDrawIndexed(const std::shared_ptr<VertexArray>& vertexArray, uint32_t indexCount) {
 		uint32_t count = indexCount ? indexCount : vertexArray->getIndexBuffers()->getCount();
 		glDrawElements(GL_TRIANGLES, count, GL_UNSIGNED_INT, nullptr);
-		glBindTexture(GL_TEXTURE_2D, 0);
+		//glBindTexture(GL_TEXTURE_2D, 0);
 	}
 
 	void Renderer2D::DrawQuad(const glm::vec2& position, const glm::vec2& size, const glm::vec4& color)
@@ -263,6 +264,7 @@ namespace Shado {
 
 			textureIndex = (float)s_Data.TextureSlotIndex;
 			s_Data.TextureSlots[s_Data.TextureSlotIndex] = texture;
+			texture->bind(s_Data.TextureSlotIndex);
 			s_Data.TextureSlotIndex++;
 		}
 

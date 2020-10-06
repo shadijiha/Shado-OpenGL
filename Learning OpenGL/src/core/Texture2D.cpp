@@ -85,7 +85,7 @@ namespace Shado {
 	}
 
 	void Texture2D::unbind() const {
-		glCall(glBindTexture(GL_TEXTURE_2D, 0));
+		//glCall(glBindTexture(GL_TEXTURE_2D, 0));
 	}
 
 }

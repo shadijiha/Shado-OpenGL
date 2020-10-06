@@ -24,7 +24,7 @@ namespace Shado {
 
 		virtual const glm::mat4& getProjectionMatrix()		const { return m_ProjectionMatrix; }
 		virtual const glm::mat4& getViewMatrix()			const { return m_ViewMatrix; }
-		virtual const glm::mat4& getViewProjectionMatrix()	const { return m_viewProjectionMatrix; }
+		virtual glm::mat4 getViewProjectionMatrix()	const { return m_viewProjectionMatrix; }
 
 	protected:
 		virtual void reCalculateViewMatrix() = 0;

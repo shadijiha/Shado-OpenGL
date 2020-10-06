@@ -27,26 +27,21 @@ public:
 		
 		for (float y = -1.5f; y < 1.5f; y += 0.3f)
 			for (float x = -1.5f; x < 1.5f; x += 0.3f)
-				Renderer2D::DrawQuad({ x, y , -2 }, { 0.25, 0.25}, riven2);
+				Renderer2D::DrawQuad({ x, y , -2 }, { 0.25, 0.25}, riven1);
 		
 		Renderer2D::DrawQuad({ -0.5, -0.5 , -5 }, { 6, 4}, riven2);
 		
 		
-		// for (float y = -5.0f; y < 5.0f; y += 0.5f)
-		// {
-		// 	for (float x = -5.0f; x < 5.0f; x += 0.5f)
-		// 	{
-		// 		glm::vec4 color = { (x + 5.0f) / 10.0f, 0.4f, (y + 5.0f) / 10.0f, 0.7f };
-		// 		Renderer2D::DrawQuad({ x, y , -5}, { 0.45f, 0.45f }, color);
-		// 	}
-		// }		
+		for (float y = -5.0f; y < 5.0f; y += 0.5f)
+		{
+			for (float x = -5.0f; x < 5.0f; x += 0.5f)
+			{
+				glm::vec4 color = { (x + 5.0f) / 10.0f, 0.4f, (y + 5.0f) / 10.0f, 0.7f };
+				Renderer2D::DrawQuad({ x, y , -10}, { 0.45f, 0.45f }, color);
+			}
+		}		
 		
 		Renderer2D::EndScene();
-
-		static float angle = -90.0;
-		angle += 0.1;
-
-		camera.getCamera().setRotation({ 0, angle, 0 });
 	}
 	
 	void onDestroy() override{}
@@ -56,9 +51,9 @@ public:
 	}
 
 private:
-	std::shared_ptr<Texture2D> riven1 = std::make_shared<Texture2D>("src/core/ressources/riven.png");;
+	std::shared_ptr<Texture2D> riven1 = std::make_shared<Texture2D>("src/core/ressources/test.jpg");
 	//Texture2D riven2 = { "src/core/ressources/riven2.jpg" };
-	OrbitCameraController camera;
+	OrthoCameraController camera;
 	std::shared_ptr<Texture2D> riven2 = std::make_shared<Texture2D>("src/core/ressources/riven2.jpg");
 
 	float angle;

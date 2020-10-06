@@ -15,6 +15,7 @@
 #include "core/cameras/Camera.h"
 #include "core/cameras/OrthoCamera.h"
 #include "core/cameras/OrbitCamera.h"
+#include "core/cameras/EditorCamera.h"
 
 // Events
 #include "core/Events/Event.h"

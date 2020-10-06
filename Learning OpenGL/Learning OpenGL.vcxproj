@@ -154,6 +154,7 @@
   <ItemGroup>
     <ClCompile Include="src\core\Application.cpp" />
     <ClCompile Include="src\core\Buffer.cpp" />
+    <ClCompile Include="src\core\cameras\EditorCamera.cpp" />
     <ClCompile Include="src\core\cameras\OrbitCamera.cpp" />
     <ClCompile Include="src\core\cameras\OrthoCamera.cpp" />
     <ClCompile Include="src\core\Events\input.cpp" />
@@ -171,6 +172,7 @@
     <ClInclude Include="src\core\Application.h" />
     <ClInclude Include="src\core\Buffer.h" />
     <ClInclude Include="src\core\cameras\Camera.h" />
+    <ClInclude Include="src\core\cameras\EditorCamera.h" />
     <ClInclude Include="src\core\cameras\OrbitCamera.h" />
     <ClInclude Include="src\core\cameras\OrthoCamera.h" />
     <ClInclude Include="src\core\Events\ApplicationEvent.h" />
