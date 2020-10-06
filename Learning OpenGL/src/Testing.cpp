@@ -1,5 +1,9 @@
-﻿#include "Shado.h"
+﻿#include <iostream>
+
+#include "Shado.h"
 #include <stdio.h>
+
+#include "collections/LinkedList.h"
 
 using namespace Shado;
 
@@ -66,6 +70,8 @@ int main(int argc, const char** argv)
 	auto& application = Application::get();
 	application.submit(new TestScene());
 	application.run();
-
+	
 	Application::destroy();
+
+	std::cin.get();
 }

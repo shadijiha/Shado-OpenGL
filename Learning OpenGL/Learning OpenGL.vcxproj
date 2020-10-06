@@ -169,6 +169,12 @@
     <ClCompile Include="Vendor\glm\detail\glm.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\collections\ArrayList.h" />
+    <ClInclude Include="src\collections\Deque.h" />
+    <ClInclude Include="src\collections\IList.h" />
+    <ClInclude Include="src\collections\IQueue.h" />
+    <ClInclude Include="src\collections\IThreadsafe.h" />
+    <ClInclude Include="src\collections\LinkedList.h" />
     <ClInclude Include="src\core\Application.h" />
     <ClInclude Include="src\core\Buffer.h" />
     <ClInclude Include="src\core\cameras\Camera.h" />
