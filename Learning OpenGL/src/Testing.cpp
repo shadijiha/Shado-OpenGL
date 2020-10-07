@@ -53,7 +53,7 @@ public:
 private:
 	std::shared_ptr<Texture2D> riven1 = std::make_shared<Texture2D>("src/core/ressources/test.jpg");
 	//Texture2D riven2 = { "src/core/ressources/riven2.jpg" };
-	OrthoCameraController camera;
+	OrbitCameraController camera;
 	std::shared_ptr<Texture2D> riven2 = std::make_shared<Texture2D>("src/core/ressources/riven2.jpg");
 
 	float angle;
