@@ -87,8 +87,8 @@ namespace Shado {
 				" must be less that " + std::to_string(max) + " and greater than "
 				+ std::to_string(min) + " (got " + std::to_string(input) + ")";
 
-			Debug::error(message);
-			Debug::Assert(false, message);
+			SHADO_ERROR(message);
+			SHADO_ASSERT(false, message);
 		}
 
 		return input;

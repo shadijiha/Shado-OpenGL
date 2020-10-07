@@ -36,7 +36,7 @@ namespace Shado {
 		std::vector<std::string> requiredUniforms{ "u_ViewProjection", "u_Transform", "a_Position" };
 		for (const std::string& uni : requiredUniforms) {
 			if (source.find(uni) == std::string::npos)
-				Debug::warn("{0} shader does not contain the following uniform/layout: {1}", { m_Name,  uni });
+				SHADO_CORE_WARN("{0} shader does not contain the following uniform/layout: {1}", m_Name,  uni);
 		}
 	}
 
@@ -75,11 +75,11 @@ namespace Shado {
 				in.read(&result[0], size);
 			} else
 			{
-				Debug::error("Could not read from file " + filepath);
+				SHADO_CORE_ERROR("Could not read from file " + filepath);
 			}
 		} else
 		{
-			Debug::Assert(false, "Could not open file " + filepath);
+			SHADO_CORE_ASSERT(false, "Could not open file " + filepath);
 		}
 
 		return result;
@@ -95,11 +95,11 @@ namespace Shado {
 		while (pos != std::string::npos)
 		{
 			size_t eol = source.find_first_of("\r\n", pos); //End of shader type declaration line
-			Debug::Assert(eol != std::string::npos, "Syntax error");
+			SHADO_CORE_ASSERT(eol != std::string::npos, "Syntax error");
 		
 			size_t begin = pos + typeTokenLength + 1; //Start of shader type name (after "#type " keyword)
 			std::string type = source.substr(begin, eol - begin);
-			Debug::Assert(ShaderTypeFromString(type), "Invalid shader type specified");
+			SHADO_CORE_ASSERT(ShaderTypeFromString(type), "Invalid shader type specified");
 
 			size_t nextLinePos = source.find_first_not_of("\r\n", eol); //Start of shader code after shader type declaration line
 			//HZ_CORE_ASSERT(nextLinePos != std::string::npos, "Syntax error");
@@ -114,7 +114,7 @@ namespace Shado {
 	void Shader::compile(const std::unordered_map<GLenum, std::string>& shaderSources)
 	{
 		GLuint program = glCreateProgram();
-		Debug::Assert(shaderSources.size() <= 2, "We only support 2 shaders for now");
+		SHADO_CORE_ASSERT(shaderSources.size() <= 2, "We only support 2 shaders for now");
 	
 		std::array<GLenum, 2> glShaderIDs;
 		int glShaderIDIndex = 0;
@@ -142,8 +142,8 @@ namespace Shado {
 
 				glDeleteShader(shader);
 
-				Debug::error(infoLog.data());
-				Debug::Assert(false, type + " Shader compilation failure!");
+				SHADO_CORE_ERROR(infoLog.data());
+				SHADO_CORE_ASSERT(false, type + " Shader compilation failure!");
 				break;
 			}
 
@@ -174,7 +174,7 @@ namespace Shado {
 			for (auto id : glShaderIDs)
 				glDeleteShader(id);
 
-			Debug::error(infoLog.data());
+			SHADO_CORE_ERROR(infoLog.data());
 			//HZ_CORE_ASSERT(false, "Shader link failure!");
 			return;
 		}

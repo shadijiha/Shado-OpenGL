@@ -28,7 +28,7 @@ namespace Shado {
 		case ShaderDataType::Bool:     return 1;
 		}
 
-		Debug::Assert(false, "Unknown ShaderDataType!");
+		SHADO_CORE_ASSERT(false, "Unknown ShaderDataType!");
 		return 0;
 	}
 
@@ -64,7 +64,7 @@ namespace Shado {
 			case ShaderDataType::Bool:    return 1;
 			}
 
-			Debug::Assert(false, "Unknown ShaderDataType!");
+			SHADO_CORE_ASSERT(false, "Unknown ShaderDataType!");
 			return 0;
 		}
 	};

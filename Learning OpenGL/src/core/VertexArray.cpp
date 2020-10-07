@@ -22,7 +22,7 @@ namespace Shado {
 		case ShaderDataType::Int4:		return GL_INT;
 		case ShaderDataType::Bool:		return GL_BOOL;
 		}
-		Debug::Assert(false, "Unknown ShaderDataType");
+		SHADO_CORE_ASSERT(false, "Unknown ShaderDataType");
 		return 0;
 	}
 
@@ -45,7 +45,7 @@ namespace Shado {
 
 	void VertexArray::addVertexBuffer(const std::shared_ptr<VertexBuffer>& vertexBuffer) {
 
-		Debug::Assert(vertexBuffer->getLayout().getElements().size(), "Vertex buffer has no layout!");
+		SHADO_CORE_ASSERT(vertexBuffer->getLayout().getElements().size(), "Vertex buffer has no layout!");
 
 		glBindVertexArray(m_RendererID);
 		vertexBuffer->bind();
@@ -94,7 +94,7 @@ namespace Shado {
 				break;
 			}
 			default:
-				Debug::Assert(false, "Unknown ShaderDataType!");
+				SHADO_CORE_ASSERT(false, "Unknown ShaderDataType!");
 			}
 		}
 

@@ -29,9 +29,11 @@ namespace Shado {
 
 	Application::Application(unsigned width, unsigned height, const std::string& title)
 	{
+		Log::init();
+		
 		/* Initialize the library */
 		if (!glfwInit())
-			Debug::Assert(false, "Failed to initialize GLFW!");
+			SHADO_CORE_ASSERT(false, "Failed to initialize GLFW!");
 
 		m_Data.title = title;
 		m_Data.width = width;
@@ -42,7 +44,7 @@ namespace Shado {
 		if (!window)
 		{
 			glfwTerminate();
-			Debug::Assert(false, "Failed to create window");
+			SHADO_CORE_ASSERT(false, "Failed to create window");
 		}
 
 		/* Make the window's context current */
@@ -50,7 +52,7 @@ namespace Shado {
 
 		if (glewInit() != GLEW_OK) {		
 			glfwTerminate();
-			Debug::Assert(false, "Failed to create GLEW context");
+			SHADO_CORE_ASSERT(false, "Failed to create GLEW context");
 		}
 
 		glfwSetWindowUserPointer(window, &m_Data);
@@ -167,7 +169,7 @@ namespace Shado {
 		}
 
 		if (allScenes.size() == 0)
-			Debug::warn("No Scenes to draw");
+			SHADO_WARN("No Scenes to draw");
 
 		/* Loop until the user closes the window */
 		while (!glfwWindowShouldClose(window))	{

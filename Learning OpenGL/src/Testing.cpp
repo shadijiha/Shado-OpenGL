@@ -1,5 +1,6 @@
 ﻿#include "Shado.h"
 
+
 using namespace Shado;
 
 class TestScene : public Scene {
