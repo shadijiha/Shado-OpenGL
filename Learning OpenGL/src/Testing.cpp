@@ -40,7 +40,15 @@ public:
 				glm::vec4 color = { (x + 5.0f) / 10.0f, 0.4f, (y + 5.0f) / 10.0f, 0.7f };
 				Renderer2D::DrawQuad({ x, y , -10}, { 0.45f, 0.45f }, color);
 			}
-		}		
+		}
+
+		Renderer2D::SetLineThickness(10.0f);
+		for (float i = -1.5f; i < 1.5f; i += 0.3f)
+			for (float j = -1.5f; j < 1.5f; j += 0.3f)
+			{
+				glm::vec4 color = { (j + 5.0f) / 10.0f, 0.4f, (i + 5.0f) / 10.0f, 0.7f };
+				Renderer2D::DrawLine({ j, i , 10 }, { j + 0.45f,  i + 0.45f, 5 }, color);
+			}
 		
 		Renderer2D::EndScene();
 	}

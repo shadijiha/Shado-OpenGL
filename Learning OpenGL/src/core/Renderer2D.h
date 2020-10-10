@@ -15,6 +15,7 @@ namespace Shado {
 
 	inline std::string FLAT_COLOR_SHADER_PATH = FILE_PATH + "\\src\\core\\ressources\\FlatColorShader.glsl";
 	inline std::string TEXTURE2D_SHADER_PATH = FILE_PATH + "\\src\\core\\ressources\\TextureShader.glsl";
+	inline std::string LINES_SHADER_PATH = FILE_PATH + "\\src\\core\\ressources\\Renderer2D_Lines.glsl";
 	
 	class Renderer2D
 	{
@@ -45,6 +46,9 @@ namespace Shado {
 		static void DrawRotatedQuad(const glm::vec3& position, const glm::vec2& size, float rotation, const std::shared_ptr<Texture2D>& texture, float tilingFactor = 1.0f, const glm::vec4& tintColor = glm::vec4(1.0f));
 		static void DrawRotatedQuad(const glm::vec3& position, const glm::vec2& size, const glm::vec3& rotation, const std::shared_ptr<Texture2D>& texture, float tilingFactor = 1.0f, const glm::vec4& tintColor = glm::vec4(1.0f));
 
+		static void SetLineThickness(float thickness);
+		static void DrawLine(const glm::vec3& p0, const glm::vec3& p1, const glm::vec4& color = glm::vec4(1.0f));
+		
 		static bool hasInitialized() { return s_Init; }
 		
 		// Stats
@@ -52,15 +56,18 @@ namespace Shado {
 		{
 			uint32_t DrawCalls = 0;
 			uint32_t QuadCount = 0;
+			uint32_t LineCount = 0;
 
-			uint32_t GetTotalVertexCount() { return QuadCount * 4; }
-			uint32_t GetTotalIndexCount() { return QuadCount * 6; }
+			uint32_t GetTotalVertexCount() { return QuadCount * 4 + LineCount * 2; }
+			uint32_t GetTotalIndexCount() { return QuadCount * 6 + LineCount * 2; }
 		};
 		static void ResetStats();
 		static Statistics GetStats();
 	private:
 		static void FlushAndReset();
+		static void FlushAndResetLines();
 		static void CmdDrawIndexed(const std::shared_ptr<VertexArray>& vertexArray, uint32_t indexCount = 0);
+		static void CmdDrawIndexedLine(const std::shared_ptr<VertexArray>& vertexArray, uint32_t indexCount = 0);
 		static bool s_Init;
 	};
 }

@@ -21,6 +21,7 @@ D:\Wamp64\www\GitHub\Shado-OpenGL\Learning OpenGL\src\core\util\Util.cpp(76,25):
   Debug.cpp
   Renderer2D.cpp
   VertexArray.cpp
+  Testing.cpp
   stb_image.cpp
   glm.cpp
   Learning OpenGL.vcxproj -> D:\Wamp64\www\GitHub\Shado-OpenGL\Release\Learning OpenGL.lib

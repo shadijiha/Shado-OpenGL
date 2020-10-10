@@ -21,12 +21,26 @@ namespace Shado {
 		float TilingFactor;
 	};
 
+	struct LineVertex
+	{
+		glm::vec3 Position;
+		glm::vec4 Color;
+	};
+	
 	struct Renderer2DData
 	{
 		static const uint32_t MaxQuads = 20000;
 		static const uint32_t MaxVertices = MaxQuads * 4;
 		static const uint32_t MaxIndices = MaxQuads * 6;
 		static const uint32_t MaxTextureSlots = 32; // TODO: RenderCaps
+
+		static const uint32_t MaxLines = 10000;
+		static const uint32_t MaxLineVertices = MaxLines * 2;
+		static const uint32_t MaxLineIndices = MaxLines * 6;
+
+		// ===============================
+		glm::mat4 CameraViewProj;
+		// ===============================
 
 		std::shared_ptr<VertexArray> QuadVertexArray;
 		std::shared_ptr<VertexBuffer> QuadVertexBuffer;
@@ -42,6 +56,19 @@ namespace Shado {
 
 		glm::vec4 QuadVertexPositions[4];
 
+		// Lines
+		std::shared_ptr<VertexArray> LineVertexArray;
+		std::shared_ptr<VertexBuffer> LineVertexBuffer;
+		std::shared_ptr<IndexBuffer> LineIndexBuffer;
+
+		std::shared_ptr<Shader> LineShader;
+
+		uint32_t LineIndexCount = 0;
+		LineVertex* LineVertexBufferBase = nullptr;
+		LineVertex* LineVertexBufferPtr = nullptr;
+
+		bool DepthTest = true;
+		
 		Renderer2D::Statistics Stats;
 	};
 
@@ -110,6 +137,33 @@ namespace Shado {
 		s_Data.QuadVertexPositions[2] = { 0.5f,  0.5f, 0.0f, 1.0f };
 		s_Data.QuadVertexPositions[3] = { -0.5f,  0.5f, 0.0f, 1.0f };
 
+
+		// Lines
+		{
+			s_Data.LineShader = std::make_shared<Shader>(LINES_SHADER_PATH);
+
+			s_Data.LineVertexBuffer = std::make_shared<VertexBuffer>(s_Data.MaxLineVertices * sizeof(LineVertex));
+			s_Data.LineVertexBuffer->setLayout({
+				{ ShaderDataType::Float3, "a_Position" },
+				{ ShaderDataType::Float4, "a_Color" }
+			});
+			
+			s_Data.LineVertexBufferBase = new LineVertex[s_Data.MaxLineVertices];
+
+			uint32_t* lineIndices = new uint32_t[s_Data.MaxLineIndices];
+			for (uint32_t i = 0; i < s_Data.MaxLineIndices; i++)
+				lineIndices[i] = i;
+
+			s_Data.LineIndexBuffer = std::make_shared<IndexBuffer>(lineIndices, s_Data.MaxLineIndices);
+
+			s_Data.LineVertexArray = std::make_shared<VertexArray>();
+			s_Data.LineVertexArray->addVertexBuffer(s_Data.LineVertexBuffer);
+			s_Data.LineVertexArray->setIndexBuffer(s_Data.LineIndexBuffer);
+			
+			delete[] lineIndices;
+		}
+		
+
 		s_Init = true;
 	}
 
@@ -123,15 +177,22 @@ namespace Shado {
 		s_Data.TextureShader->bind();
 		s_Data.TextureShader->setMat4("u_ViewProjection", camera.getViewProjectionMatrix());
 
+		s_Data.CameraViewProj = camera.getViewProjectionMatrix();
+
 		s_Data.QuadIndexCount = 0;
 		s_Data.QuadVertexBufferPtr = s_Data.QuadVertexBufferBase;
 
+		s_Data.LineIndexCount = 0;
+		s_Data.LineVertexBufferPtr = s_Data.LineVertexBufferBase;
+		
 		s_Data.TextureSlotIndex = 1;
 	}
 
 	void Renderer2D::BeginScene(const Camera& camera, const glm::mat4& transform)
 	{
 		glm::mat4 viewProj = camera.getProjectionMatrix() * glm::inverse(transform);
+
+		s_Data.CameraViewProj = viewProj;
 
 		s_Data.TextureShader->bind();
 		s_Data.TextureShader->setMat4("u_ViewProjection", viewProj);
@@ -144,14 +205,49 @@ namespace Shado {
 
 	void Renderer2D::EndScene()
 	{
+#if 0
 		uint32_t dataSize = (uint32_t)((uint8_t*)s_Data.QuadVertexBufferPtr - (uint8_t*)s_Data.QuadVertexBufferBase);
 		s_Data.QuadVertexBuffer->setData(s_Data.QuadVertexBufferBase, dataSize);
 
 		Flush();
+#endif
+
+		uint32_t dataSize = (uint8_t*)s_Data.QuadVertexBufferPtr - (uint8_t*)s_Data.QuadVertexBufferBase;
+		if (dataSize)
+		{
+			s_Data.QuadVertexBuffer->setData(s_Data.QuadVertexBufferBase, dataSize);
+
+			s_Data.TextureShader->bind();
+			s_Data.TextureShader->setMat4("u_ViewProjection", s_Data.CameraViewProj);
+
+			for (uint32_t i = 0; i < s_Data.TextureSlotIndex; i++)
+				s_Data.TextureSlots[i]->bind(i);
+
+			s_Data.QuadVertexArray->bind();
+			s_Data.QuadVertexArray->getIndexBuffers()->bind();
+			CmdDrawIndexed(s_Data.QuadVertexArray, s_Data.QuadIndexCount);
+			s_Data.Stats.DrawCalls++;
+		}
+
+		dataSize = (uint8_t*)s_Data.LineVertexBufferPtr - (uint8_t*)s_Data.LineVertexBufferBase;
+		if (dataSize)
+		{
+			s_Data.LineVertexBuffer->setData(s_Data.LineVertexBufferBase, dataSize);
+
+			s_Data.LineShader->bind();
+			s_Data.LineShader->setMat4("u_ViewProjection", s_Data.CameraViewProj);
+
+			s_Data.LineVertexArray->bind();
+			s_Data.LineIndexBuffer->bind();
+			SetLineThickness(2.0f);
+			CmdDrawIndexedLine(s_Data.LineVertexArray, s_Data.LineIndexCount);
+			s_Data.Stats.DrawCalls++;
+		}
 	}
 
 	void Renderer2D::Flush()
 	{
+#if 0
 		if (s_Data.QuadIndexCount == 0)
 			return; // Nothing to draw
 
@@ -161,6 +257,8 @@ namespace Shado {
 
 		CmdDrawIndexed(s_Data.QuadVertexArray, s_Data.QuadIndexCount);
 		s_Data.Stats.DrawCalls++;
+
+#endif
 	}
 
 	void Renderer2D::SetClearColor(const glm::vec4& color) {
@@ -181,9 +279,20 @@ namespace Shado {
 		s_Data.TextureSlotIndex = 1;
 	}
 
+	void Renderer2D::FlushAndResetLines()
+	{
+
+	}
+
 	void Renderer2D::CmdDrawIndexed(const std::shared_ptr<VertexArray>& vertexArray, uint32_t indexCount) {
 		uint32_t count = indexCount ? indexCount : vertexArray->getIndexBuffers()->getCount();
 		glDrawElements(GL_TRIANGLES, count, GL_UNSIGNED_INT, nullptr);
+		//glBindTexture(GL_TEXTURE_2D, 0);
+	}
+
+	void Renderer2D::CmdDrawIndexedLine(const std::shared_ptr<VertexArray>& vertexArray, uint32_t indexCount) {
+		uint32_t count = indexCount ? indexCount : vertexArray->getIndexBuffers()->getCount();
+		glDrawElements(GL_LINES, count, GL_UNSIGNED_INT, nullptr);
 		//glBindTexture(GL_TEXTURE_2D, 0);
 	}
 
@@ -336,6 +445,28 @@ namespace Shado {
 		DrawQuad(transform, texture, tilingFactor, tintColor);
 	}
 
+	void Renderer2D::SetLineThickness(float thickness) {
+		glLineWidth(thickness);
+	}
+
+	void Renderer2D::DrawLine(const glm::vec3& p0, const glm::vec3& p1, const glm::vec4& color)
+	{
+		if (s_Data.LineIndexCount >= Renderer2DData::MaxLineIndices)
+			FlushAndResetLines();
+
+		s_Data.LineVertexBufferPtr->Position = p0;
+		s_Data.LineVertexBufferPtr->Color = color;
+		s_Data.LineVertexBufferPtr++;
+
+		s_Data.LineVertexBufferPtr->Position = p1;
+		s_Data.LineVertexBufferPtr->Color = color;
+		s_Data.LineVertexBufferPtr++;
+
+		s_Data.LineIndexCount += 2;
+
+		s_Data.Stats.LineCount++;
+	}
+	
 	void Renderer2D::ResetStats()
 	{
 		memset(&s_Data.Stats, 0, sizeof(Statistics));
