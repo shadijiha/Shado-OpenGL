@@ -28,6 +28,8 @@
 
 // Utility
 #include "core/util/Util.h"
+#include "core/util/random.h"
+#include "core/util/ParticuleSystem.h"
 
 
 #endif

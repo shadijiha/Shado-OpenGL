@@ -24,7 +24,7 @@ namespace Shado {
 		~Color();
 
 		Color& operator=(const Color& other);
-		explicit operator glm::vec4() const;
+		operator glm::vec4() const;
 		explicit operator glm::vec3() const;
 
 		static Color fromRGBA(unsigned char r, unsigned char g, unsigned char b, unsigned char a);

@@ -8,6 +8,7 @@
 #include "Events/ApplicationEvent.h"
 #include "Events/KeyEvent.h"
 #include "Events/MouseEvent.h"
+#include "util/Random.h"
 
 #define BIND_EVENT_FN(x) std::bind(&Application::x, this, std::placeholders::_1)
 
@@ -30,6 +31,7 @@ namespace Shado {
 	Application::Application(unsigned width, unsigned height, const std::string& title)
 	{
 		Log::init();
+		Random::init();
 		
 		/* Initialize the library */
 		if (!glfwInit())

@@ -57,6 +57,12 @@
     <ClCompile Include="src\core\cameras\EditorCamera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\core\util\ParticuleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\util\Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="src\Testing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1383,6 +1389,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\core\spdlog\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\util\ParticuleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\util\Random.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
