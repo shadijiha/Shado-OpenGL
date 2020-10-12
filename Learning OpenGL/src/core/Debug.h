@@ -23,6 +23,8 @@ namespace Shado {
 	private:
 		static std::shared_ptr<spdlog::logger> s_CoreLogger;
 		static std::shared_ptr<spdlog::logger> s_ClientLogger;
+
+		static bool hasInit;
 	};
 }
 

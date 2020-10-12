@@ -26,13 +26,13 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -124,6 +124,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(ProjectDir)src\core;vendor;$(ProjectDir)Vendor\GLEW\include;$(ProjectDir)Vendor\GLFW\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -158,14 +159,18 @@
     <ClCompile Include="src\core\cameras\OrbitCamera.cpp" />
     <ClCompile Include="src\core\cameras\OrthoCamera.cpp" />
     <ClCompile Include="src\core\Events\input.cpp" />
+    <ClCompile Include="src\core\Renderer3D.cpp" />
     <ClCompile Include="src\core\Shader.cpp" />
     <ClCompile Include="src\core\Texture2D.cpp" />
+    <ClCompile Include="src\core\util\Light.cpp" />
+    <ClCompile Include="src\core\util\Object3D.cpp" />
     <ClCompile Include="src\core\util\ParticuleSystem.cpp" />
     <ClCompile Include="src\core\util\Random.cpp" />
     <ClCompile Include="src\core\util\Util.cpp" />
     <ClCompile Include="src\core\Debug.cpp" />
     <ClCompile Include="src\core\Renderer2D.cpp" />
     <ClCompile Include="src\core\VertexArray.cpp" />
+    <ClCompile Include="src\core\Window.cpp" />
     <ClCompile Include="src\Testing.cpp" />
     <ClCompile Include="src\vendor\stb_image.cpp" />
     <ClCompile Include="Vendor\glm\detail\glm.cpp" />
@@ -184,6 +189,8 @@
     <ClInclude Include="src\core\Events\KeyEvent.h" />
     <ClInclude Include="src\core\Events\MouseButtonCodes.h" />
     <ClInclude Include="src\core\Events\MouseEvent.h" />
+    <ClInclude Include="src\core\opengl.h" />
+    <ClInclude Include="src\core\Renderer3D.h" />
     <ClInclude Include="src\core\Shader.h" />
     <ClInclude Include="src\core\spdlog\async.h" />
     <ClInclude Include="src\core\spdlog\async_logger.h" />
@@ -318,12 +325,15 @@
     <ClInclude Include="src\core\spdlog\tweakme.h" />
     <ClInclude Include="src\core\spdlog\version.h" />
     <ClInclude Include="src\core\Texture2D.h" />
+    <ClInclude Include="src\core\util\Light.h" />
+    <ClInclude Include="src\core\util\Object3D.h" />
     <ClInclude Include="src\core\util\ParticuleSystem.h" />
     <ClInclude Include="src\core\util\Random.h" />
     <ClInclude Include="src\core\util\Util.h" />
     <ClInclude Include="src\core\Debug.h" />
     <ClInclude Include="src\core\Renderer2D.h" />
     <ClInclude Include="src\core\VertexArray.h" />
+    <ClInclude Include="src\core\Window.h" />
     <ClInclude Include="src\Shado.h" />
     <ClInclude Include="src\vendor\stb_image.h" />
     <ClInclude Include="Vendor\GLEW\include\GL\eglew.h" />

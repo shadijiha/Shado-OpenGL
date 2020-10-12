@@ -6,18 +6,20 @@ using namespace Shado;
 class TestScene : public Scene {
 public:
 	TestScene() :
-		Scene("Test scene"), camera(Application::getAspectRatio())
+		Scene("Test scene"), camera(Application::get().getWindow().getAspectRatio())
 	{
 	}
 	virtual ~TestScene() {}
 
 	void onInit() override {
-		
 	}
 	
 	void onUpdate(TimeStep dt) override {
+
+		Window& window = Application::get().getWindow();
+		
 		std::string  s = "FPS " + std::to_string(dt.toFPS());
-		Application::get().setWindowTitle(s);
+		window.setTitle(s);
 
 		camera.onUpdate(dt);
 	}
@@ -28,9 +30,10 @@ public:
 		
 		for (float y = -1.5f; y < 1.5f; y += 0.3f)
 			for (float x = -1.5f; x < 1.5f; x += 0.3f)
-				Renderer2D::DrawQuad({ x, y , -2 }, { 0.25, 0.25}, riven1);
+				Renderer2D::DrawQuad({ x, y , -2 }, { 0.25, 0.25}, riven2);
 		
 		Renderer2D::DrawQuad({ -0.5, -0.5 , -5 }, { 6, 4}, riven2);
+		Renderer2D::DrawQuad({ -0.5, -0.5 , -10 }, { 12, 8 }, riven1);
 		
 		
 		for (float y = -5.0f; y < 5.0f; y += 0.5f)
@@ -38,17 +41,9 @@ public:
 			for (float x = -5.0f; x < 5.0f; x += 0.5f)
 			{
 				glm::vec4 color = { (x + 5.0f) / 10.0f, 0.4f, (y + 5.0f) / 10.0f, 0.7f };
-				Renderer2D::DrawQuad({ x, y , -10}, { 0.45f, 0.45f }, color);
+				Renderer2D::DrawQuad({ x, y , -15}, { 0.45f, 0.45f }, color);
 			}
 		}
-
-		Renderer2D::SetLineThickness(10.0f);
-		for (float i = -1.5f; i < 1.5f; i += 0.3f)
-			for (float j = -1.5f; j < 1.5f; j += 0.3f)
-			{
-				glm::vec4 color = { (j + 5.0f) / 10.0f, 0.4f, (i + 5.0f) / 10.0f, 0.7f };
-				Renderer2D::DrawLine({ j, i , 10 }, { j + 0.45f,  i + 0.45f, 5 }, color);
-			}
 		
 		Renderer2D::EndScene();
 	}
@@ -56,22 +51,39 @@ public:
 	void onDestroy() override{}
 	
 	void onEvent(Event& e) override {
+
 		camera.onEvent(e);
+
+		SHADO_INFO("Event is: {0}", e.toString());
+
+		EventDispatcher dispatcher(e);
+		dispatcher.dispatch<KeyPressedEvent>([&](KeyPressedEvent& event) {
+
+			if (event.getKeyCode() == SHADO_KEY_ESCAPE) {
+				Application::get().getWindow().setMode(WindowMode::WINDOWED);
+				return true;
+			}
+			
+			return false;
+		});
 	}
 
 private:
-	std::shared_ptr<Texture2D> riven1 = std::make_shared<Texture2D>("src/core/ressources/test.jpg");
-	//Texture2D riven2 = { "src/core/ressources/riven2.jpg" };
-	OrbitCameraController camera;
+	std::shared_ptr<Texture2D> riven1 = std::make_shared<Texture2D>("src/core/ressources/riven3.png");
 	std::shared_ptr<Texture2D> riven2 = std::make_shared<Texture2D>("src/core/ressources/riven2.jpg");
-
-	float angle;
+	
+	//std::shared_ptr<Object3D> obj = std::make_shared<Object3D>("src/core/ressources/rings.obj");
+	//DiffuseLight light = DiffuseLight({0, 0, 20});
+	
+	OrbitCameraController camera;
 };
 
 int main(int argc, const char** argv)
 {
 
 	auto& application = Application::get();
+	application.getWindow().resize(1920, 1080);
+	application.getWindow().setMode(WindowMode::FULLSCREEN);
 	application.submit(new TestScene());
 	application.run();
 

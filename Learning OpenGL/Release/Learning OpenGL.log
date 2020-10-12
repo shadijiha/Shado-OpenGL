@@ -1,27 +1,12 @@
-﻿  Application.cpp
-D:\Wamp64\www\GitHub\Shado-OpenGL\Learning OpenGL\src\core\Application.cpp(38,58): warning C4390: ';': empty controlled statement found; is this the intent?
-  Buffer.cpp
-  EditorCamera.cpp
-  OrbitCamera.cpp
-  OrthoCamera.cpp
-  input.cpp
-  Shader.cpp
-D:\Wamp64\www\GitHub\Shado-OpenGL\Learning OpenGL\src\core\Shader.cpp(70,16): warning C4244: 'initializing': conversion from 'std::streamoff' to 'size_t', possible loss of data
-  Texture2D.cpp
-  ParticuleSystem.cpp
-  Random.cpp
-  Util.cpp
-D:\Wamp64\www\GitHub\Shado-OpenGL\Learning OpenGL\src\core\util\Util.cpp(56,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Wamp64\www\GitHub\Shado-OpenGL\Learning OpenGL\src\core\util\Util.cpp(56,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Wamp64\www\GitHub\Shado-OpenGL\Learning OpenGL\src\core\util\Util.cpp(56,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Wamp64\www\GitHub\Shado-OpenGL\Learning OpenGL\src\core\util\Util.cpp(56,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Wamp64\www\GitHub\Shado-OpenGL\Learning OpenGL\src\core\util\Util.cpp(76,31): warning C4244: 'argument': conversion from 'double' to 'unsigned char', possible loss of data
-D:\Wamp64\www\GitHub\Shado-OpenGL\Learning OpenGL\src\core\util\Util.cpp(76,28): warning C4244: 'argument': conversion from 'double' to 'unsigned char', possible loss of data
-D:\Wamp64\www\GitHub\Shado-OpenGL\Learning OpenGL\src\core\util\Util.cpp(76,25): warning C4244: 'argument': conversion from 'double' to 'unsigned char', possible loss of data
-  Debug.cpp
-  Renderer2D.cpp
-  VertexArray.cpp
-  Testing.cpp
-  stb_image.cpp
-  glm.cpp
-  Learning OpenGL.vcxproj -> D:\Wamp64\www\GitHub\Shado-OpenGL\Release\Learning OpenGL.lib
+﻿  Window.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+D:\Wamp64\www\GitHub\Shado-OpenGL\Learning OpenGL\Vendor\GLFW\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+D:\Wamp64\www\GitHub\Shado-OpenGL\Learning OpenGL\src\core\Window.cpp(20,58): warning C4390: ';': empty controlled statement found; is this the intent?
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  4 of 4168 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    13 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\Wamp64\www\GitHub\Shado-OpenGL\Release\vc120.pdb'; linking object as if no debug info
+  Learning OpenGL.vcxproj -> D:\Wamp64\www\GitHub\Shado-OpenGL\Release\Learning OpenGL.exe

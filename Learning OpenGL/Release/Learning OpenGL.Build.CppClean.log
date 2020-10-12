@@ -6,8 +6,12 @@ d:\wamp64\www\github\shado-opengl\learning opengl\release\vertexarray.obj
 d:\wamp64\www\github\shado-opengl\learning opengl\release\renderer2d.obj
 d:\wamp64\www\github\shado-opengl\learning opengl\release\debug.obj
 d:\wamp64\www\github\shado-opengl\learning opengl\release\util.obj
+d:\wamp64\www\github\shado-opengl\learning opengl\release\random.obj
+d:\wamp64\www\github\shado-opengl\learning opengl\release\particulesystem.obj
+d:\wamp64\www\github\shado-opengl\learning opengl\release\object3d.obj
 d:\wamp64\www\github\shado-opengl\learning opengl\release\texture2d.obj
 d:\wamp64\www\github\shado-opengl\learning opengl\release\shader.obj
+d:\wamp64\www\github\shado-opengl\learning opengl\release\renderer3d.obj
 d:\wamp64\www\github\shado-opengl\learning opengl\release\input.obj
 d:\wamp64\www\github\shado-opengl\learning opengl\release\orthocamera.obj
 d:\wamp64\www\github\shado-opengl\learning opengl\release\orbitcamera.obj
@@ -15,6 +19,7 @@ d:\wamp64\www\github\shado-opengl\learning opengl\release\editorcamera.obj
 d:\wamp64\www\github\shado-opengl\learning opengl\release\buffer.obj
 d:\wamp64\www\github\shado-opengl\learning opengl\release\application.obj
 d:\wamp64\www\github\shado-opengl\learning opengl\release\learning opengl.pdb
+d:\wamp64\www\github\shado-opengl\learning opengl\release\light.obj
 d:\wamp64\www\github\shado-opengl\release\learning opengl.ipdb
 d:\wamp64\www\github\shado-opengl\release\learning opengl.iobj
 d:\wamp64\www\github\shado-opengl\release\learning opengl.lib

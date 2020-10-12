@@ -6,6 +6,7 @@
 // Shado Engine
 #include "core/Application.h"
 #include "core/Renderer2D.h"
+#include "core/Renderer3D.h"
 #include "core/Shader.h"
 #include "core/Debug.h"
 #include "core/Buffer.h"
@@ -30,6 +31,7 @@
 #include "core/util/Util.h"
 #include "core/util/random.h"
 #include "core/util/ParticuleSystem.h"
+#include "core/util/Object3D.h"
 
 
 #endif

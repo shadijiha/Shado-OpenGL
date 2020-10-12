@@ -4,6 +4,7 @@
 #define APPLICATION_EVENT_H
 
 #include "Event.h"
+#include <sstream>
 
 namespace Shado {
 	

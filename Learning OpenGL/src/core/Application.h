@@ -3,8 +3,9 @@
 #include <vector>
 #include "Renderer2D.h"
 
-#include "GLFW/glfw3.h"
+#include "opengl.h"
 #include "Events/Event.h"
+#include "Window.h"
 
 namespace Shado {
 	
@@ -32,40 +33,27 @@ namespace Shado {
 	};
 
 	class Application {
-	private:
-		using EventCallbackFn = std::function<void(Event&)>;
-		struct WindowData
-		{
-			std::string title;
-			unsigned int width, height;
-			bool VSync;
-
-			EventCallbackFn eventCallback;
-		};
 	public:
 		Application(unsigned int width, unsigned int height, const std::string& title);
 		Application();
 		~Application();
 
 		static Application& get() { return *singleton; }
-		static void destroy();
-		static const WindowData& getWindowData() { return singleton->m_Data; }
-		static float getAspectRatio() { return (float)singleton->m_Data.width / (float)singleton->m_Data.height; }
+		static void destroy();		
 
-		void setWindowTitle(const std::string& s) const;
-	
-		void listenToEvents();
+		static void close();
+		
 		void run();
 		void submit(Scene* scene);
 		void onEvent(Event& e);	
 
-		GLFWwindow* getWindow() const { return window; }
+		Window& getWindow() const { return *window; }
 
 	private:
-		GLFWwindow* window;
+		std::unique_ptr<Window> window;
 		float m_LastFrameTime = 0.0f;	// Time took to render last frame	
 		std::vector<Scene*> allScenes;
-		WindowData m_Data;
+		bool m_Running = true;
 	
 		static Application* singleton;	
 	};

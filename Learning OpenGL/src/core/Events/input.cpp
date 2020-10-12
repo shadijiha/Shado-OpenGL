@@ -10,14 +10,14 @@ namespace Shado {
 
 	bool WindowsInput::isKeyPressedImplementation(int keycode) {
 
-		auto window = static_cast<GLFWwindow*>(Application::get().getWindow());
+		auto window = static_cast<GLFWwindow*>(Application::get().getWindow().getNativeWindow());
 		auto state = glfwGetKey(window, keycode);
 
 		return state == GLFW_PRESS || state == GLFW_REPEAT;
 	}
 
 	bool WindowsInput::isMouseButtonPressedImplementation(int button) {
-		auto window = static_cast<GLFWwindow*>(Application::get().getWindow());
+		auto window = static_cast<GLFWwindow*>(Application::get().getWindow().getNativeWindow());
 		auto state = glfwGetMouseButton(window, button);
 
 		return state == GLFW_PRESS;
@@ -34,7 +34,7 @@ namespace Shado {
 	}
 
 	std::pair<float, float> WindowsInput::getMousePositionImplementation() {
-		auto window = static_cast<GLFWwindow*>(Application::get().getWindow());
+		auto window = static_cast<GLFWwindow*>(Application::get().getWindow().getNativeWindow());
 		double xpos, ypos;
 		glfwGetCursorPos(window, &xpos, &ypos);
 
