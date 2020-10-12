@@ -99,6 +99,9 @@ namespace Shado {
 		case WindowMode::WINDOWED:
 			makeWindowed();
 			break;
+		case WindowMode::BORDERLESS_WINDOWED:
+			makeBorderless();
+			break;
 		}
 		
 		// TODO: implement
@@ -130,6 +133,20 @@ namespace Shado {
 
 		// restore last window size and position
 		glfwSetWindowMonitor(native_window, nullptr, m_Position.first, m_Position.second, m_Size.first, m_Size.second, 0);
+
+		updateViewport();
+	}
+
+	void Window::makeBorderless() {
+		
+		const GLFWvidmode* mode = glfwGetVideoMode(monitor);
+
+		glfwWindowHint(GLFW_RED_BITS, mode->redBits);
+		glfwWindowHint(GLFW_GREEN_BITS, mode->greenBits);
+		glfwWindowHint(GLFW_BLUE_BITS, mode->blueBits);
+		glfwWindowHint(GLFW_REFRESH_RATE, mode->refreshRate);		
+
+		glfwSetWindowMonitor(native_window, nullptr, 0, 0, mode->width, mode->height, mode->refreshRate);
 
 		updateViewport();
 	}

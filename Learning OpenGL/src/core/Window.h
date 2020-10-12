@@ -58,6 +58,7 @@ namespace Shado {
 
 		void makeFullScreen();
 		void makeWindowed();
+		void makeBorderless();
 
 		void updateViewport();
 		

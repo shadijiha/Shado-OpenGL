@@ -1,362 +1,828 @@
-[10:56:30] [warning] SHADO: TextureShader shader does not contain the following uniform/layout: u_Transform
-[10:56:30] [warning] SHADO: Renderer2D_Lines shader does not contain the following uniform/layout: u_Transform
-[10:56:30] [info] APP: Event is: MouseMovedEvent: 821, 565
-[10:56:31] [info] APP: Event is: KeyPressedEvent: 83 (0 repeats)
-[10:56:31] [info] APP: Event is: KeyTypedEvent: 115
-[10:56:31] [info] APP: Event is: KeyPressedEvent: 68 (0 repeats)
-[10:56:31] [info] APP: Event is: KeyTypedEvent: 100
-[10:56:31] [info] APP: Event is: KeyReleasedEvent: 83
-[10:56:31] [info] APP: Event is: KeyPressedEvent: 68 (1 repeats)
-[10:56:31] [info] APP: Event is: KeyTypedEvent: 100
-[10:56:31] [info] APP: Event is: KeyPressedEvent: 68 (1 repeats)
-[10:56:31] [info] APP: Event is: KeyTypedEvent: 100
-[10:56:32] [info] APP: Event is: KeyPressedEvent: 68 (1 repeats)
-[10:56:32] [info] APP: Event is: KeyTypedEvent: 100
-[10:56:32] [info] APP: Event is: KeyPressedEvent: 68 (1 repeats)
-[10:56:32] [info] APP: Event is: KeyTypedEvent: 100
-[10:56:32] [info] APP: Event is: KeyPressedEvent: 68 (1 repeats)
-[10:56:32] [info] APP: Event is: KeyTypedEvent: 100
-[10:56:32] [info] APP: Event is: KeyPressedEvent: 68 (1 repeats)
-[10:56:32] [info] APP: Event is: KeyTypedEvent: 100
-[10:56:32] [info] APP: Event is: KeyPressedEvent: 68 (1 repeats)
-[10:56:32] [info] APP: Event is: KeyTypedEvent: 100
-[10:56:32] [info] APP: Event is: KeyPressedEvent: 68 (1 repeats)
-[10:56:32] [info] APP: Event is: KeyTypedEvent: 100
-[10:56:32] [info] APP: Event is: KeyPressedEvent: 68 (1 repeats)
-[10:56:32] [info] APP: Event is: KeyTypedEvent: 100
-[10:56:32] [info] APP: Event is: KeyPressedEvent: 68 (1 repeats)
-[10:56:32] [info] APP: Event is: KeyTypedEvent: 100
-[10:56:32] [info] APP: Event is: KeyPressedEvent: 68 (1 repeats)
-[10:56:32] [info] APP: Event is: KeyTypedEvent: 100
-[10:56:32] [info] APP: Event is: KeyPressedEvent: 263 (0 repeats)
-[10:56:32] [info] APP: Event is: KeyReleasedEvent: 263
-[10:56:32] [info] APP: Event is: KeyPressedEvent: 262 (0 repeats)
-[10:56:32] [info] APP: Event is: KeyReleasedEvent: 262
-[10:56:32] [info] APP: Event is: KeyPressedEvent: 263 (0 repeats)
-[10:56:33] [info] APP: Event is: KeyReleasedEvent: 263
-[10:56:33] [info] APP: Event is: KeyPressedEvent: 87 (0 repeats)
-[10:56:33] [info] APP: Event is: KeyTypedEvent: 119
-[10:56:33] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
-[10:56:33] [info] APP: Event is: KeyTypedEvent: 119
-[10:56:33] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
-[10:56:33] [info] APP: Event is: KeyTypedEvent: 119
-[10:56:33] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
-[10:56:33] [info] APP: Event is: KeyTypedEvent: 119
-[10:56:33] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
-[10:56:33] [info] APP: Event is: KeyTypedEvent: 119
-[10:56:33] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
-[10:56:33] [info] APP: Event is: KeyTypedEvent: 119
-[10:56:33] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
-[10:56:33] [info] APP: Event is: KeyTypedEvent: 119
-[10:56:33] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
-[10:56:33] [info] APP: Event is: KeyTypedEvent: 119
-[10:56:34] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
-[10:56:34] [info] APP: Event is: KeyTypedEvent: 119
-[10:56:34] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
-[10:56:34] [info] APP: Event is: KeyTypedEvent: 119
-[10:56:34] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
-[10:56:34] [info] APP: Event is: KeyTypedEvent: 119
-[10:56:34] [info] APP: Event is: KeyReleasedEvent: 68
-[10:56:34] [info] APP: Event is: KeyReleasedEvent: 87
-[10:56:34] [info] APP: Event is: KeyPressedEvent: 256 (0 repeats)
-[10:56:34] [info] APP: Event is: WindowResizeEvent: 1920, 1080
-[10:56:34] [info] APP: Event is: WindowResizeEvent: 1920, 1080
-[10:56:34] [info] APP: Event is: MouseMovedEvent: 631, 352
-[10:56:34] [info] APP: Event is: KeyReleasedEvent: 256
-[10:56:35] [info] APP: Event is: KeyPressedEvent: 83 (0 repeats)
-[10:56:35] [info] APP: Event is: KeyTypedEvent: 115
-[10:56:36] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
-[10:56:36] [info] APP: Event is: KeyTypedEvent: 115
-[10:56:36] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
-[10:56:36] [info] APP: Event is: KeyTypedEvent: 115
-[10:56:36] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
-[10:56:36] [info] APP: Event is: KeyTypedEvent: 115
-[10:56:36] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
-[10:56:36] [info] APP: Event is: KeyTypedEvent: 115
-[10:56:36] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
-[10:56:36] [info] APP: Event is: KeyTypedEvent: 115
-[10:56:36] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
-[10:56:36] [info] APP: Event is: KeyTypedEvent: 115
-[10:56:36] [info] APP: Event is: KeyPressedEvent: 263 (0 repeats)
-[10:56:36] [info] APP: Event is: KeyReleasedEvent: 263
-[10:56:36] [info] APP: Event is: KeyPressedEvent: 65 (0 repeats)
-[10:56:36] [info] APP: Event is: KeyTypedEvent: 97
-[10:56:36] [info] APP: Event is: KeyPressedEvent: 262 (0 repeats)
-[10:56:36] [info] APP: Event is: KeyReleasedEvent: 262
-[10:56:37] [info] APP: Event is: KeyReleasedEvent: 83
-[10:56:37] [info] APP: Event is: KeyReleasedEvent: 65
-[10:56:37] [info] APP: Event is: KeyPressedEvent: 68 (0 repeats)
-[10:56:37] [info] APP: Event is: KeyTypedEvent: 100
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 632, 352
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 633, 352
-[10:56:37] [info] APP: Event is: KeyPressedEvent: 87 (0 repeats)
-[10:56:37] [info] APP: Event is: KeyTypedEvent: 119
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 636, 352
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 637, 352
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 641, 352
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 642, 352
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 647, 351
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 648, 351
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 649, 351
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 656, 350
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 658, 349
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 659, 349
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 667, 347
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 670, 346
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 680, 343
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 682, 342
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 695, 338
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 697, 337
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 699, 336
-[10:56:37] [info] APP: Event is: KeyReleasedEvent: 68
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 713, 331
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 715, 330
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 718, 329
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 728, 325
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 744, 318
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 765, 309
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 783, 301
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 801, 293
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 814, 286
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 817, 285
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 819, 284
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 830, 280
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 833, 279
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 835, 278
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 846, 274
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 849, 273
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 851, 272
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 862, 268
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 864, 268
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 865, 267
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 876, 264
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 878, 264
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 881, 263
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 892, 260
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 894, 259
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 905, 257
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 907, 257
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 920, 254
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 921, 254
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 935, 253
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 949, 252
-[10:56:37] [info] APP: Event is: MouseMovedEvent: 964, 251
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 976, 251
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 990, 251
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 992, 251
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 995, 251
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1002, 251
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1013, 252
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1016, 252
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1024, 253
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1031, 256
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1035, 259
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1037, 262
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1037, 263
-[10:56:38] [info] APP: Event is: KeyPressedEvent: 65 (0 repeats)
-[10:56:38] [info] APP: Event is: KeyTypedEvent: 97
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1039, 265
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1042, 267
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1047, 267
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1051, 268
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1051, 269
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1052, 270
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1053, 271
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1056, 271
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1057, 271
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1058, 271
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1061, 272
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1062, 272
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1066, 273
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1067, 273
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1068, 274
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1072, 274
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1074, 275
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1075, 275
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1076, 275
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1079, 276
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1080, 276
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1086, 277
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1087, 277
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1094, 279
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1095, 279
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1103, 280
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1104, 280
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1114, 282
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1127, 283
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1129, 283
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1142, 284
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1156, 285
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1171, 285
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1174, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1176, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1178, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1185, 286
-[10:56:38] [info] APP: Event is: KeyReleasedEvent: 65
-[10:56:38] [info] APP: Event is: KeyReleasedEvent: 87
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1191, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1193, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1206, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1222, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1223, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1236, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1240, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1252, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1266, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1268, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1269, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1282, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1284, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1295, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1297, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1299, 286
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1307, 285
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1309, 285
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1311, 285
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1313, 285
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1320, 285
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1321, 285
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1332, 285
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1334, 285
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1342, 285
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1344, 285
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1353, 284
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1354, 284
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1355, 284
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1362, 284
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1370, 284
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1371, 284
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1377, 283
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1378, 283
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1383, 282
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1387, 282
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1390, 282
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1391, 282
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1391, 281
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1392, 281
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1393, 281
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1394, 280
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1397, 279
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1398, 279
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1399, 279
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1401, 278
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1402, 278
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1403, 277
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1407, 276
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1408, 276
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1413, 274
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1422, 271
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1423, 270
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1432, 266
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1434, 266
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1435, 265
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1444, 262
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1446, 261
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1455, 257
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1457, 256
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1459, 256
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1470, 251
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1472, 251
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1486, 245
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1487, 245
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1502, 239
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1504, 238
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1506, 237
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1509, 236
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1510, 236
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1519, 232
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1535, 226
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1538, 225
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1553, 219
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1569, 212
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1572, 210
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1586, 204
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1588, 203
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1590, 202
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1606, 194
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1609, 193
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1611, 192
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1620, 188
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1623, 187
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1625, 186
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1636, 180
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1641, 177
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1645, 175
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1651, 172
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1654, 170
-[10:56:38] [info] APP: Event is: KeyPressedEvent: 68 (0 repeats)
-[10:56:38] [info] APP: Event is: KeyTypedEvent: 100
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1669, 161
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1671, 160
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1681, 154
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1683, 153
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1695, 145
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1697, 144
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1706, 138
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1708, 137
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1718, 130
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1728, 123
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1730, 122
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1731, 121
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1737, 117
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1744, 111
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1752, 105
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1758, 100
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1763, 94
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1768, 88
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1771, 84
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1774, 80
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1775, 79
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1777, 76
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1777, 75
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1778, 74
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1780, 71
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1781, 68
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1782, 67
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1783, 64
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1784, 64
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1784, 63
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1785, 61
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1785, 60
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1786, 57
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1787, 57
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1788, 55
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1788, 54
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1789, 52
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1790, 50
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1791, 49
-[10:56:38] [info] APP: Event is: MouseMovedEvent: 1792, 47
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1793, 45
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1794, 44
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1794, 43
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1795, 43
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1795, 42
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1796, 41
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1797, 39
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1798, 38
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1798, 37
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1799, 36
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1799, 35
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1800, 34
-[10:56:39] [info] APP: Event is: KeyReleasedEvent: 68
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1800, 33
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1801, 32
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1802, 30
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1803, 28
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1804, 26
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1804, 25
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1805, 25
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1805, 23
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1807, 21
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1807, 20
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1808, 18
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1810, 16
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1810, 15
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1812, 13
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1814, 11
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1814, 10
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1816, 8
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1818, 5
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1820, 3
-[10:56:39] [info] APP: Event is: MouseMovedEvent: 1822, 0
-[10:56:39] [info] APP: Event is: WindowClose
+[11:04:29] [warning] SHADO: TextureShader shader does not contain the following uniform/layout: u_Transform
+[11:04:29] [warning] SHADO: Renderer2D_Lines shader does not contain the following uniform/layout: u_Transform
+[11:04:29] [info] APP: Event is: MouseMovedEvent: 560, 210
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 561, 213
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 561, 214
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 564, 217
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 568, 222
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 569, 223
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 574, 228
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 580, 233
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 581, 234
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 582, 234
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 590, 240
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 597, 246
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 599, 248
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 608, 255
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 610, 256
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 621, 263
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 623, 265
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 636, 273
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 638, 274
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 653, 283
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 656, 285
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 672, 294
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 694, 306
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 698, 308
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 721, 319
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 724, 320
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 749, 332
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 753, 334
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 778, 345
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 783, 348
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 793, 352
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 795, 353
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 800, 356
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 810, 360
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 817, 363
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 819, 364
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 825, 366
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 831, 369
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 842, 374
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 877, 388
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 889, 392
+[11:04:30] [info] APP: Event is: KeyPressedEvent: 68 (0 repeats)
+[11:04:30] [info] APP: Event is: KeyTypedEvent: 100
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 919, 404
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 923, 405
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 928, 407
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 934, 410
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 946, 414
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 951, 416
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 982, 429
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 990, 432
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1017, 443
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1023, 445
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1028, 448
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1054, 458
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1059, 460
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1088, 472
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1093, 474
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1098, 476
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1121, 485
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1127, 487
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1156, 499
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1160, 500
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1184, 509
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1190, 512
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1215, 520
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1217, 521
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1221, 523
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1239, 529
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1262, 537
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1266, 538
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1282, 544
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1297, 549
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1309, 553
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1317, 556
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1321, 559
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1321, 560
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1321, 563
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1318, 565
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1313, 567
+[11:04:30] [info] APP: Event is: KeyPressedEvent: 87 (0 repeats)
+[11:04:30] [info] APP: Event is: KeyTypedEvent: 119
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1326, 570
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1328, 571
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1330, 571
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1332, 572
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1334, 572
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1336, 573
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1344, 575
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1348, 576
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1351, 576
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1361, 578
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1363, 579
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1384, 583
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1392, 585
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1394, 585
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1410, 588
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1416, 589
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1439, 592
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1444, 593
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1472, 597
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1478, 598
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1508, 602
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1513, 603
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1539, 607
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1544, 608
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1551, 609
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1573, 613
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1580, 614
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1607, 617
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1613, 618
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1620, 618
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1645, 621
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1649, 622
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1670, 624
+[11:04:30] [info] APP: Event is: KeyReleasedEvent: 68
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1682, 626
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1687, 626
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1711, 629
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1744, 633
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1775, 636
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1806, 640
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1837, 643
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1868, 647
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1872, 647
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1878, 648
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1880, 648
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1887, 649
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1893, 649
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1899, 650
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1924, 652
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1930, 653
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1936, 654
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1955, 656
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1967, 657
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1973, 657
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1990, 659
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 1992, 659
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2021, 662
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2027, 662
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2029, 663
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2035, 663
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2040, 663
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2054, 665
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2060, 665
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2085, 667
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2091, 667
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2097, 668
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2120, 669
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2122, 669
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2129, 669
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2153, 670
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2158, 670
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2185, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2190, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2197, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2222, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2227, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2232, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2259, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2265, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2269, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2296, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2302, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2306, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2334, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2371, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2376, 671
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2413, 670
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2451, 670
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2458, 669
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2463, 669
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2470, 669
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2475, 669
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2492, 669
+[11:04:30] [info] APP: Event is: MouseMovedEvent: 2535, 668
+[11:04:30] [info] APP: Event is: KeyReleasedEvent: 87
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2510, 653
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2502, 653
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2494, 654
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2481, 655
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2473, 655
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2448, 657
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2387, 662
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2326, 667
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2265, 674
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2203, 680
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2195, 681
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2154, 685
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2143, 687
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2085, 694
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2080, 695
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2069, 696
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2039, 700
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 2031, 701
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1987, 708
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1978, 709
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1937, 715
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1930, 716
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1888, 724
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1881, 725
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1844, 731
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1839, 732
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1835, 733
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1807, 738
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1802, 739
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1770, 744
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1765, 745
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1762, 746
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1758, 747
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1753, 747
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1749, 748
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1741, 750
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1716, 754
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1713, 755
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1694, 758
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1676, 761
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1662, 763
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1661, 763
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1653, 764
+[11:04:32] [info] APP: Event is: MouseMovedEvent: 1651, 764
+[11:04:33] [info] APP: Event is: MouseMovedEvent: 1646, 764
+[11:04:33] [info] APP: Event is: MouseMovedEvent: 1642, 765
+[11:04:33] [info] APP: Event is: MouseMovedEvent: 1640, 765
+[11:04:33] [info] APP: Event is: MouseMovedEvent: 1639, 765
+[11:04:33] [info] APP: Event is: MouseButtonPressedEvent: 0
+[11:04:33] [info] APP: Event is: MouseButtonReleasedEvent: 0
+[11:04:33] [info] APP: Event is: KeyPressedEvent: 68 (0 repeats)
+[11:04:33] [info] APP: Event is: KeyTypedEvent: 100
+[11:04:33] [info] APP: Event is: KeyPressedEvent: 87 (0 repeats)
+[11:04:33] [info] APP: Event is: KeyTypedEvent: 119
+[11:04:33] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
+[11:04:33] [info] APP: Event is: KeyTypedEvent: 119
+[11:04:33] [info] APP: Event is: MouseMovedEvent: 1639, 766
+[11:04:33] [info] APP: Event is: MouseMovedEvent: 1638, 766
+[11:04:33] [info] APP: Event is: MouseMovedEvent: 1637, 766
+[11:04:33] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
+[11:04:33] [info] APP: Event is: KeyTypedEvent: 119
+[11:04:33] [info] APP: Event is: MouseMovedEvent: 1636, 766
+[11:04:33] [info] APP: Event is: MouseMovedEvent: 1635, 767
+[11:04:33] [info] APP: Event is: MouseMovedEvent: 1634, 767
+[11:04:33] [info] APP: Event is: MouseMovedEvent: 1633, 767
+[11:04:33] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
+[11:04:33] [info] APP: Event is: KeyTypedEvent: 119
+[11:04:33] [info] APP: Event is: MouseMovedEvent: 1632, 767
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1631, 768
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1630, 768
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1629, 768
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1628, 768
+[11:04:34] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
+[11:04:34] [info] APP: Event is: KeyTypedEvent: 119
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1627, 768
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1625, 769
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1624, 769
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1622, 769
+[11:04:34] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
+[11:04:34] [info] APP: Event is: KeyTypedEvent: 119
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1621, 769
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1620, 769
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1619, 769
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1619, 770
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1617, 770
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1615, 770
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1614, 770
+[11:04:34] [info] APP: Event is: KeyPressedEvent: 87 (1 repeats)
+[11:04:34] [info] APP: Event is: KeyTypedEvent: 119
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1613, 770
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1611, 770
+[11:04:34] [info] APP: Event is: KeyReleasedEvent: 87
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1609, 771
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1607, 771
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1605, 771
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1602, 771
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1600, 772
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1598, 772
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1596, 772
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1594, 772
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1592, 773
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1591, 773
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1590, 773
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1588, 773
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1587, 773
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1586, 773
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1585, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1584, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1583, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1582, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1581, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1580, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1578, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1577, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1576, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1574, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1573, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1572, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1571, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1570, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1568, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1567, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1566, 775
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1565, 775
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1564, 775
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1563, 775
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1562, 775
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1561, 775
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1560, 775
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1559, 775
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1557, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1554, 774
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1554, 773
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1553, 773
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1552, 773
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1552, 772
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1551, 772
+[11:04:34] [info] APP: Event is: MouseMovedEvent: 1550, 771
+[11:04:34] [info] APP: Event is: KeyPressedEvent: 87 (0 repeats)
+[11:04:34] [info] APP: Event is: KeyTypedEvent: 119
+[11:04:34] [info] APP: Event is: KeyReleasedEvent: 68
+[11:04:35] [info] APP: Event is: KeyReleasedEvent: 87
+[11:04:35] [info] APP: Event is: KeyPressedEvent: 263 (0 repeats)
+[11:04:35] [info] APP: Event is: KeyReleasedEvent: 263
+[11:04:35] [info] APP: Event is: KeyPressedEvent: 256 (0 repeats)
+[11:04:35] [info] APP: Event is: WindowResizeEvent: 2560, 1440
+[11:04:35] [info] APP: Event is: KeyReleasedEvent: 256
+[11:04:35] [info] APP: Event is: KeyPressedEvent: 256 (0 repeats)
+[11:04:36] [info] APP: Event is: KeyReleasedEvent: 256
+[11:04:36] [info] APP: Event is: KeyPressedEvent: 256 (0 repeats)
+[11:04:36] [info] APP: Event is: KeyReleasedEvent: 256
+[11:04:37] [info] APP: Event is: KeyPressedEvent: 343 (0 repeats)
+[11:04:37] [info] APP: Event is: KeyReleasedEvent: 343
+[11:04:37] [info] APP: Event is: MouseMovedEvent: 1550, 772
+[11:04:37] [info] APP: Event is: MouseMovedEvent: 1552, 772
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1553, 772
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1554, 772
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1556, 772
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1559, 771
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1562, 770
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1567, 769
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1571, 767
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1572, 767
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1573, 767
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1577, 766
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1583, 764
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1585, 763
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1588, 762
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1589, 762
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1595, 760
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1601, 758
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1602, 758
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1608, 756
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1614, 754
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1616, 753
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1621, 752
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1622, 752
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1627, 750
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1629, 749
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1630, 749
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1633, 748
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1640, 747
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1640, 746
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1641, 746
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1645, 745
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1651, 743
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1652, 743
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1656, 742
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1660, 741
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1661, 741
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1665, 740
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1668, 739
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1669, 739
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1669, 738
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1670, 738
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1671, 738
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1672, 738
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1673, 737
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1675, 737
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1677, 736
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1678, 736
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1680, 735
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1681, 734
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1682, 734
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1683, 734
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1684, 733
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1685, 733
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1685, 732
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1686, 732
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1686, 731
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1687, 731
+[11:04:38] [info] APP: Event is: MouseMovedEvent: 1687, 730
+[11:04:38] [info] APP: Event is: MouseButtonPressedEvent: 0
+[11:04:38] [info] APP: Event is: MouseButtonReleasedEvent: 0
+[11:04:38] [info] APP: Event is: KeyPressedEvent: 256 (0 repeats)
+[11:04:39] [info] APP: Event is: KeyReleasedEvent: 256
+[11:04:39] [info] APP: Event is: KeyPressedEvent: 256 (0 repeats)
+[11:04:39] [info] APP: Event is: KeyReleasedEvent: 256
+[11:04:39] [info] APP: Event is: KeyPressedEvent: 256 (0 repeats)
+[11:04:39] [info] APP: Event is: KeyReleasedEvent: 256
+[11:04:39] [info] APP: Event is: KeyPressedEvent: 256 (0 repeats)
+[11:04:39] [info] APP: Event is: KeyReleasedEvent: 256
+[11:04:39] [info] APP: Event is: KeyPressedEvent: 256 (0 repeats)
+[11:04:40] [info] APP: Event is: KeyReleasedEvent: 256
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1685, 730
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1684, 730
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1683, 730
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1682, 730
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1681, 730
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1680, 730
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1679, 730
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1678, 730
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1677, 731
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1676, 731
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1675, 731
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1674, 731
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1673, 731
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1672, 731
+[11:04:40] [info] APP: Event is: KeyPressedEvent: 256 (0 repeats)
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1671, 731
+[11:04:40] [info] APP: Event is: MouseMovedEvent: 1670, 732
+[11:04:40] [info] APP: Event is: KeyReleasedEvent: 256
+[11:04:40] [info] APP: Event is: KeyPressedEvent: 256 (0 repeats)
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1669, 732
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1668, 732
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1667, 732
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1666, 732
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1665, 732
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1664, 732
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1663, 732
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1662, 732
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1661, 732
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1659, 732
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1658, 732
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1657, 732
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1656, 732
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1655, 732
+[11:04:41] [info] APP: Event is: KeyReleasedEvent: 256
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1654, 732
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1653, 733
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1652, 733
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1651, 733
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1650, 733
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1650, 734
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1649, 734
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1648, 734
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1647, 735
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1646, 736
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1645, 736
+[11:04:41] [info] APP: Event is: MouseButtonPressedEvent: 0
+[11:04:41] [info] APP: Event is: MouseButtonReleasedEvent: 0
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1645, 737
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1645, 738
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1645, 739
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1645, 740
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1645, 741
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1645, 742
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1645, 743
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1644, 744
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1644, 745
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1644, 746
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1644, 747
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1643, 748
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1643, 749
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1642, 750
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1641, 750
+[11:04:41] [info] APP: Event is: KeyPressedEvent: 68 (0 repeats)
+[11:04:41] [info] APP: Event is: KeyTypedEvent: 100
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1640, 751
+[11:04:41] [info] APP: Event is: MouseMovedEvent: 1639, 751
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1638, 752
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1637, 752
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1636, 752
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1635, 753
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1634, 753
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1633, 753
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1632, 754
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1630, 754
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1629, 754
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1628, 754
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1627, 754
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1626, 755
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1625, 755
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1624, 755
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1623, 755
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1621, 755
+[11:04:42] [info] APP: Event is: KeyPressedEvent: 87 (0 repeats)
+[11:04:42] [info] APP: Event is: KeyTypedEvent: 119
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1620, 756
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1619, 756
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1618, 756
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1617, 756
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1616, 756
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1615, 756
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1614, 757
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1612, 757
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1611, 757
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1610, 757
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1609, 757
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1608, 757
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1607, 757
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1606, 758
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1605, 758
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1604, 758
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1603, 758
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1602, 758
+[11:04:42] [info] APP: Event is: KeyReleasedEvent: 68
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1601, 758
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1600, 758
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1599, 758
+[11:04:42] [info] APP: Event is: KeyPressedEvent: 65 (0 repeats)
+[11:04:42] [info] APP: Event is: KeyTypedEvent: 97
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1598, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1597, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1596, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1595, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1594, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1593, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1592, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1591, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1590, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1589, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1588, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1587, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1586, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1585, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1584, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1583, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1582, 759
+[11:04:42] [info] APP: Event is: KeyReleasedEvent: 87
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1581, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1580, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1579, 759
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1579, 760
+[11:04:42] [info] APP: Event is: KeyReleasedEvent: 65
+[11:04:42] [info] APP: Event is: MouseScrolledEvent: 0, 1
+[11:04:42] [info] APP: Event is: MouseScrolledEvent: 0, 1
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1578, 760
+[11:04:42] [info] APP: Event is: MouseScrolledEvent: 0, 1
+[11:04:42] [info] APP: Event is: MouseScrolledEvent: 0, 1
+[11:04:42] [info] APP: Event is: MouseScrolledEvent: 0, 1
+[11:04:42] [info] APP: Event is: MouseScrolledEvent: 0, 1
+[11:04:42] [info] APP: Event is: MouseScrolledEvent: 0, 1
+[11:04:42] [info] APP: Event is: MouseMovedEvent: 1577, 760
+[11:04:42] [info] APP: Event is: MouseScrolledEvent: 0, 1
+[11:04:42] [info] APP: Event is: MouseScrolledEvent: 0, 1
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, 1
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, 1
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, 1
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1576, 760
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, 1
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, 1
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1576, 761
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1575, 761
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1575, 762
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1574, 762
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1573, 763
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1572, 764
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1571, 764
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1571, 765
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1569, 766
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1567, 769
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1565, 771
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1565, 772
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1564, 774
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1563, 777
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1562, 777
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1562, 778
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1560, 781
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1560, 782
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1559, 783
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1558, 784
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1558, 785
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1558, 787
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1558, 789
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1558, 791
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1558, 792
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseScrolledEvent: 0, -1
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1558, 791
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1559, 791
+[11:04:43] [info] APP: Event is: KeyPressedEvent: 87 (0 repeats)
+[11:04:43] [info] APP: Event is: KeyTypedEvent: 119
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1559, 790
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1560, 790
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1561, 789
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1562, 789
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1565, 788
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1566, 787
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1567, 787
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1572, 785
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1582, 782
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1593, 779
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1610, 775
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1629, 771
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1651, 767
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1679, 763
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1683, 762
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1687, 762
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1689, 762
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1708, 759
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1741, 755
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1745, 755
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1754, 754
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1758, 754
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1781, 751
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1811, 748
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1818, 748
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1824, 747
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1830, 746
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1836, 746
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1855, 744
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1861, 743
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1867, 743
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1874, 742
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1899, 740
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1905, 739
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1911, 739
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1917, 738
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1923, 737
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1946, 735
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1952, 734
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 1996, 730
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 2002, 729
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 2010, 728
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 2016, 728
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 2045, 724
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 2053, 723
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 2103, 718
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 2109, 717
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 2151, 712
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 2202, 706
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 2258, 699
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 2262, 698
+[11:04:43] [info] APP: Event is: MouseMovedEvent: 2309, 693
+[11:04:44] [info] APP: Event is: MouseMovedEvent: 2370, 685
+[11:04:44] [info] APP: Event is: MouseMovedEvent: 2377, 684
+[11:04:44] [info] APP: Event is: MouseMovedEvent: 2382, 684
+[11:04:44] [info] APP: Event is: MouseMovedEvent: 2391, 683
+[11:04:44] [info] APP: Event is: MouseMovedEvent: 2398, 682
+[11:04:44] [info] APP: Event is: MouseMovedEvent: 2410, 681
+[11:04:44] [info] APP: Event is: MouseMovedEvent: 2460, 675
+[11:04:44] [info] APP: Event is: MouseMovedEvent: 2510, 669
+[11:04:44] [info] APP: Event is: MouseMovedEvent: 2556, 663
+[11:04:44] [info] APP: Event is: KeyReleasedEvent: 87
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2540, 619
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2534, 619
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2530, 620
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2521, 620
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2508, 620
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2505, 620
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2500, 621
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2495, 621
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2492, 621
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2487, 621
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2484, 621
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2480, 621
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2475, 621
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2472, 621
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2463, 622
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2448, 622
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2438, 622
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2417, 623
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2411, 623
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2386, 624
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2349, 625
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2343, 625
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2324, 626
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2300, 626
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2293, 626
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2287, 627
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2281, 627
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2269, 627
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2264, 627
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2233, 628
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2231, 628
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2225, 628
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2221, 629
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2206, 629
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2175, 630
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2171, 630
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2169, 630
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2144, 631
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2140, 631
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2113, 632
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2084, 634
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2051, 635
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2048, 636
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2043, 636
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2038, 636
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 2022, 638
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1994, 640
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1964, 642
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1957, 643
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1932, 645
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1928, 646
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1906, 648
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1877, 651
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1873, 652
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1848, 655
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1824, 658
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1803, 661
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1796, 662
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1792, 662
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1790, 663
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1774, 665
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1771, 666
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1750, 669
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1747, 670
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1724, 674
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1721, 674
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1706, 677
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1703, 677
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1701, 678
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1695, 679
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1685, 681
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1666, 685
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1665, 685
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1662, 686
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1650, 688
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1633, 692
+[11:04:50] [info] APP: Event is: MouseMovedEvent: 1621, 695
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1608, 698
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1600, 699
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1599, 700
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1597, 700
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1596, 700
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1593, 701
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1588, 702
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1584, 703
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1583, 703
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1581, 704
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1580, 704
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1580, 705
+[11:04:51] [info] APP: Event is: MouseButtonPressedEvent: 0
+[11:04:51] [info] APP: Event is: MouseButtonReleasedEvent: 0
+[11:04:51] [info] APP: Event is: KeyPressedEvent: 65 (0 repeats)
+[11:04:51] [info] APP: Event is: KeyTypedEvent: 97
+[11:04:51] [info] APP: Event is: KeyReleasedEvent: 65
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1579, 705
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1578, 706
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1577, 706
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1576, 707
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1574, 708
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1573, 708
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1571, 709
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1569, 710
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1566, 712
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1565, 712
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1563, 713
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1562, 713
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1559, 714
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1556, 715
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1555, 715
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1555, 716
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1554, 716
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1553, 716
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1550, 717
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1549, 718
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1547, 719
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1545, 719
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1544, 720
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1542, 720
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1542, 721
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1541, 721
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1540, 721
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1539, 721
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1538, 722
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1537, 722
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1536, 722
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1535, 723
+[11:04:51] [info] APP: Event is: MouseMovedEvent: 1534, 723
+[11:04:51] [info] APP: Event is: MouseButtonPressedEvent: 0
+[11:04:52] [info] APP: Event is: MouseMovedEvent: 1533, 724
+[11:04:52] [info] APP: Event is: KeyPressedEvent: 83 (0 repeats)
+[11:04:52] [info] APP: Event is: KeyTypedEvent: 115
+[11:04:52] [info] APP: Event is: MouseButtonReleasedEvent: 0
+[11:04:52] [info] APP: Event is: KeyPressedEvent: 65 (0 repeats)
+[11:04:52] [info] APP: Event is: KeyTypedEvent: 97
+[11:04:52] [info] APP: Event is: KeyReleasedEvent: 83
+[11:04:53] [info] APP: Event is: KeyReleasedEvent: 65
+[11:04:53] [info] APP: Event is: KeyPressedEvent: 83 (0 repeats)
+[11:04:53] [info] APP: Event is: KeyTypedEvent: 115
+[11:04:53] [info] APP: Event is: KeyPressedEvent: 68 (0 repeats)
+[11:04:53] [info] APP: Event is: KeyTypedEvent: 100
+[11:04:53] [info] APP: Event is: KeyReleasedEvent: 83
+[11:04:53] [info] APP: Event is: KeyPressedEvent: 83 (0 repeats)
+[11:04:53] [info] APP: Event is: KeyTypedEvent: 115
+[11:04:53] [info] APP: Event is: KeyReleasedEvent: 68
+[11:04:54] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
+[11:04:54] [info] APP: Event is: KeyTypedEvent: 115
+[11:04:54] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
+[11:04:54] [info] APP: Event is: KeyTypedEvent: 115
+[11:04:54] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
+[11:04:54] [info] APP: Event is: KeyTypedEvent: 115
+[11:04:54] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
+[11:04:54] [info] APP: Event is: KeyTypedEvent: 115
+[11:04:54] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
+[11:04:54] [info] APP: Event is: KeyTypedEvent: 115
+[11:04:54] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
+[11:04:54] [info] APP: Event is: KeyTypedEvent: 115
+[11:04:54] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
+[11:04:54] [info] APP: Event is: KeyTypedEvent: 115
+[11:04:54] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
+[11:04:54] [info] APP: Event is: KeyTypedEvent: 115
+[11:04:54] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
+[11:04:54] [info] APP: Event is: KeyTypedEvent: 115
+[11:04:54] [info] APP: Event is: KeyPressedEvent: 83 (1 repeats)
+[11:04:54] [info] APP: Event is: KeyTypedEvent: 115
+[11:04:54] [info] APP: Event is: KeyPressedEvent: 342 (0 repeats)
+[11:04:54] [info] APP: Event is: KeyReleasedEvent: 83
+[11:04:54] [info] APP: Event is: KeyReleasedEvent: 342
+[11:05:00] [info] APP: Event is: WindowClose
