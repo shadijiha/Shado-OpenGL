@@ -3,3 +3,4 @@ Debug/
 Release/
 Learning OpenGL/Debug
 Learning OpenGL/Release
+*.log
