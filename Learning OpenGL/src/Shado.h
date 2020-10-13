@@ -31,7 +31,9 @@
 #include "core/util/Util.h"
 #include "core/util/random.h"
 #include "core/util/ParticuleSystem.h"
-#include "core/util/Object3D.h"
+#include "core/Objects3D/Object3D.h"
+#include "core/Objects3D/Sphere.h"
+#include "core/Objects3D/Cube.h"
 
 
 #endif

@@ -8,6 +8,7 @@ public:
 	TestScene() :
 		Scene("Test scene"), camera(Application::get().getWindow().getAspectRatio())
 	{
+		sphere = std::make_shared<Cube>();
 	}
 	virtual ~TestScene() {}
 
@@ -46,6 +47,10 @@ public:
 		}
 		
 		Renderer2D::EndScene();
+
+		Renderer3D::BeginScene(camera.getCamera());
+		Renderer3D::DrawModel(sphere, {0, 0, 0}, {1, 2, 1});
+		Renderer3D::EndScene();
 	}
 	
 	void onDestroy() override{}
@@ -53,8 +58,6 @@ public:
 	void onEvent(Event& e) override {
 
 		camera.onEvent(e);
-
-		SHADO_INFO("Event is: {0}", e.toString());
 
 		EventDispatcher dispatcher(e);
 		dispatcher.dispatch<KeyPressedEvent>([&](KeyPressedEvent& event) {
@@ -71,6 +74,8 @@ public:
 private:
 	std::shared_ptr<Texture2D> riven1 = std::make_shared<Texture2D>("src/core/ressources/riven3.png");
 	std::shared_ptr<Texture2D> riven2 = std::make_shared<Texture2D>("src/core/ressources/riven2.jpg");
+
+	std::shared_ptr<Object3D> sphere;
 	
 	//std::shared_ptr<Object3D> obj = std::make_shared<Object3D>("src/core/ressources/rings.obj");
 	//DiffuseLight light = DiffuseLight({0, 0, 20});

@@ -2,7 +2,7 @@
 #include <memory>
 
 #include "glm/vec3.hpp"
-#include "util/Object3D.h"
+#include "Objects3D/Object3D.h"
 #include "util/Light.h"
 
 namespace Shado {

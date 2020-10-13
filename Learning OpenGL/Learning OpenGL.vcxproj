@@ -159,11 +159,13 @@
     <ClCompile Include="src\core\cameras\OrbitCamera.cpp" />
     <ClCompile Include="src\core\cameras\OrthoCamera.cpp" />
     <ClCompile Include="src\core\Events\input.cpp" />
+    <ClCompile Include="src\core\Objects3D\Cube.cpp" />
+    <ClCompile Include="src\core\Objects3D\Sphere.cpp" />
     <ClCompile Include="src\core\Renderer3D.cpp" />
     <ClCompile Include="src\core\Shader.cpp" />
     <ClCompile Include="src\core\Texture2D.cpp" />
     <ClCompile Include="src\core\util\Light.cpp" />
-    <ClCompile Include="src\core\util\Object3D.cpp" />
+    <ClCompile Include="src\core\Objects3D\Object3D.cpp" />
     <ClCompile Include="src\core\util\ParticuleSystem.cpp" />
     <ClCompile Include="src\core\util\Random.cpp" />
     <ClCompile Include="src\core\util\Util.cpp" />
@@ -189,6 +191,8 @@
     <ClInclude Include="src\core\Events\KeyEvent.h" />
     <ClInclude Include="src\core\Events\MouseButtonCodes.h" />
     <ClInclude Include="src\core\Events\MouseEvent.h" />
+    <ClInclude Include="src\core\Objects3D\Cube.h" />
+    <ClInclude Include="src\core\Objects3D\Sphere.h" />
     <ClInclude Include="src\core\opengl.h" />
     <ClInclude Include="src\core\Renderer3D.h" />
     <ClInclude Include="src\core\Shader.h" />
@@ -326,7 +330,7 @@
     <ClInclude Include="src\core\spdlog\version.h" />
     <ClInclude Include="src\core\Texture2D.h" />
     <ClInclude Include="src\core\util\Light.h" />
-    <ClInclude Include="src\core\util\Object3D.h" />
+    <ClInclude Include="src\core\Objects3D\Object3D.h" />
     <ClInclude Include="src\core\util\ParticuleSystem.h" />
     <ClInclude Include="src\core\util\Random.h" />
     <ClInclude Include="src\core\util\Util.h" />
