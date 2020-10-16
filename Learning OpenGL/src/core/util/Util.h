@@ -38,6 +38,16 @@ namespace Shado {
 		const float& blue()		const { return _blue;	}
 		const float& alpha()	const { return _alpha;	}
 
+		// Static variables
+		static const Color WHITE;
+		static const Color BLACK;
+		static const Color RED;
+		static const Color GREEN;
+		static const Color BLUE;
+		static const Color MAGENTA;
+		static const Color CYAN;
+		static const Color YELLOW;		
+
 	private:
 		static float validateInput(float input, float min, float max);
 

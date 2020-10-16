@@ -153,6 +153,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\core\ui\CharacterService.cpp" />
     <ClCompile Include="src\core\Application.cpp" />
     <ClCompile Include="src\core\Buffer.cpp" />
     <ClCompile Include="src\core\cameras\EditorCamera.cpp" />
@@ -178,6 +179,7 @@
     <ClCompile Include="Vendor\glm\detail\glm.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\core\ui\CharacterService.h" />
     <ClInclude Include="src\core\Application.h" />
     <ClInclude Include="src\core\Buffer.h" />
     <ClInclude Include="src\core\cameras\Camera.h" />

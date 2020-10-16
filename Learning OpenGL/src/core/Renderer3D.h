@@ -19,9 +19,14 @@ namespace Shado {
 
 		static void DrawModel(const std::shared_ptr<Object3D>& mesh, const glm::vec3& position = {0, 0, 0},
 			const glm::vec3& scale = {1, 1, 1}, const glm::vec4& modelColor = { 1, 1, 1, 1 }, const DiffuseLight& light = DiffuseLight(), bool fill = true);
+
+		static void DrawRotatedModel(const std::shared_ptr<Object3D>& mesh, const glm::vec3& position = { 0, 0, 0 },
+			const glm::vec3& scale = { 1, 1, 1 }, const glm::vec3& rotation = {0, 0, 0}, const glm::vec4& modelColor = { 1, 1, 1, 1 }, const DiffuseLight& light = DiffuseLight(), bool fill = true);
 		
 
 	private:
+
+		static void DrawTransformedModel(const std::shared_ptr<Object3D>& mesh, const glm::mat4& transform, const glm::vec4& modelColor, const DiffuseLight& light, bool fill);
 	};
 	
 }

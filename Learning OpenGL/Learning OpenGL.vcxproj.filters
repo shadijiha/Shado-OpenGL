@@ -84,6 +84,9 @@
     <ClCompile Include="src\core\Objects3D\Cube.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\core\ui\CharacterService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\core\Debug.h">
@@ -1434,6 +1437,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\core\Objects3D\Cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\CharacterService.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

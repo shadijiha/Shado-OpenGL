@@ -8,7 +8,7 @@ public:
 	TestScene() :
 		Scene("Test scene"), camera(Application::get().getWindow().getAspectRatio())
 	{
-		sphere = std::make_shared<Cube>();
+		sphere = std::make_shared<Sphere>(1.0f);
 	}
 	virtual ~TestScene() {}
 
@@ -49,7 +49,7 @@ public:
 		Renderer2D::EndScene();
 
 		Renderer3D::BeginScene(camera.getCamera());
-		Renderer3D::DrawModel(sphere, {0, 0, 0}, {1, 2, 1});
+		Renderer3D::DrawRotatedModel(sphere, {0, 0, 0}, {1, 1, 1}, {0, 0, 0}, Color::MAGENTA);
 		Renderer3D::EndScene();
 	}
 	

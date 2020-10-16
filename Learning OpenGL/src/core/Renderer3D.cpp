@@ -34,6 +34,25 @@ namespace Shado {
 		glm::mat4 transform = glm::translate(glm::mat4(1.0f), position)
 			* glm::scale(glm::mat4(1.0f), scale);
 		
+		DrawTransformedModel(mesh, transform, modelColor, light, fill);
+	}
+
+	void Renderer3D::DrawRotatedModel(const std::shared_ptr<Object3D>& mesh, const glm::vec3& position,
+		const glm::vec3& scale, const glm::vec3& rotation, const glm::vec4& modelColor, const DiffuseLight& light,
+		bool fill) {
+
+		glm::mat4 transform = glm::translate(glm::mat4(1.0f), position)
+			* glm::rotate(glm::mat4(1.0f), glm::radians(rotation.x), { 1, 0, 0 })
+			* glm::rotate(glm::mat4(1.0f), glm::radians(rotation.y), { 0, 1, 0 })
+			* glm::rotate(glm::mat4(1.0f), glm::radians(rotation.z), { 0, 0, 1 })
+			* glm::scale(glm::mat4(1.0f), scale);
+
+		DrawTransformedModel(mesh, transform, modelColor, light, fill);
+	}
+
+	void Renderer3D::DrawTransformedModel(const std::shared_ptr<Object3D>& mesh, const glm::mat4& transform,
+		const glm::vec4& modelColor, const DiffuseLight& light, bool fill) {
+
 		s_Data.flatColorShader->bind();
 		s_Data.flatColorShader->setMat4("u_ViewProjection", s_Data.viewProj);
 		s_Data.flatColorShader->setMat4("u_Transform", transform);
@@ -41,7 +60,7 @@ namespace Shado {
 
 		s_Data.flatColorShader->setFloat3("u_LightPos", light.getPosition());
 		s_Data.flatColorShader->setFloat3("u_LightColor", light.getColor());
-		
+
 		const auto& vao = mesh->getVertexArray();
 		vao->bind();
 
@@ -49,8 +68,8 @@ namespace Shado {
 			auto mode = GL_TRIANGLES;
 			if (!fill)
 				mode = GL_LINES;
-			
+
 			glDrawElements(mode, vao->getIndexBuffers()->getCount(), GL_UNSIGNED_INT, nullptr);
-		}		
+		}
 	}
 }
